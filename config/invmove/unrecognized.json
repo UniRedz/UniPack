@@ -29,7 +29,8 @@
     "com.mrcrayfish.configured.client.screen.EditStringScreen": true,
     "com.mrcrayfish.configured.client.screen.ConfirmationScreen": true,
     "com.tacz.guns.client.gui.GunRefitScreen": true,
-    "net.minecraft.client.gui.screens.ConfirmLinkScreen": true
+    "net.minecraft.client.gui.screens.ConfirmLinkScreen": true,
+    "xaero.map.gui.GuiMap": true
   },
   "hideBackground": {
     "dev.ftb.mods.ftblibrary.ui.ScreenWrapper": true,

@@ -92,7 +92,7 @@ element {
 }
 
 element {
-  source = [source:local]/config/fancymenu/assets/dread_reborn_logo.png
+  source = [source:local]/profileImage/UniPack.jpeg
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5
@@ -431,7 +431,7 @@ element {
 
 element {
   interactable = true
-  source = V3.1.0
+  source = UniPack 1.0
   source_mode = direct
   shadow = true
   scale = 1.0

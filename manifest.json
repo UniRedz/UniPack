@@ -10,7 +10,7 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "DREAD 3.1.0",
+  "name": "UniPack",
   "version": "",
   "author": "",
   "files": [
@@ -925,8 +925,32 @@
       "fileID": 5460518,
       "required": true,
       "isLocked": false
+    },
+    {
+      "projectID": 618298,
+      "fileID": 5870031,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 422301,
+      "fileID": 4566141,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 263420,
+      "fileID": 6778016,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 317780,
+      "fileID": 3948206,
+      "required": true,
+      "isLocked": false
     }
   ],
   "overrides": "overrides",
-  "image": "profileImage/DREAD Reborn Release.png"
+  "image": "profileImage/UniPack.jpeg"
 }

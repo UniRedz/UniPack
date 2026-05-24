@@ -1,0 +1,35 @@
+╔══════════════════════════════════════════════════════════╗
+║                   UniPack  v1.0                          ║
+║              A Minecraft Modpack by UniRedz              ║
+║         Based on DREAD - A Horror Survival Pack          ║
+╚══════════════════════════════════════════════════════════╝
+
+ISTRUZIONI DI INSTALLAZIONE
+─────────────────────────────────────────────────────────
+  1. Estrai questo zip nella cartella dell'istanza DREAD
+     (quella che contiene le cartelle mods\, saves\, ecc.)
+     Sovrascrive tutto quando richiesto.
+
+  2. Lancia applica_modifiche.bat come Amministratore
+     Richiede una connessione internet attiva.
+
+  3. Avvia Minecraft e buon gioco.
+
+MODIFICHE INCLUSE
+─────────────────────────────────────────────────────────
+  + TaCZ        Tutte le 36 armi craftabili al Gun Smith Table
+  + BadMobs     Mob vanilla (zombie, scheletri, creeper) riabilitati
+  + Nether      Portali del Nether funzionanti
+  + Minerali    Generazione minerali vanilla ripristinata
+  + Backpack    Zaini con slot e upgrade (Sophisticated Backpacks)
+  + Minimap     Minimappa + waypoint + punto di morte (Xaero's)
+  + World Map   Mappa mondo completa, apri con M (Xaero's)
+
+CREDITI
+─────────────────────────────────────────────────────────
+  Modpack   UniRedz
+  Base      DREAD - A Horror Survival Pack by Arrenek
+  Minecraft 1.19.2  |  Forge 43.5.0
+
+  (c) 2026 UniRedz  |  Tutti i diritti riservati
+  Le mod incluse appartengono ai rispettivi autori.
