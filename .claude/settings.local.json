@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem \"c:\\\\Users\\\\redzt\\\\curseforge\\\\minecraft\\\\Instances\\\\DREAD - A Horror Survival Pack\" -Name)",
+      "PowerShell(Get-ChildItem \"c:\\\\Users\\\\redzt\\\\Desktop\\\\PC\\\\MCServer\\\\Dread\\\\config\" -Name | Where-Object { $_ -match \"tacz|craft|recipe|gun|weapon\" })",
+      "PowerShell(Get-ChildItem \"c:\\\\Users\\\\redzt\\\\curseforge\\\\minecraft\\\\Instances\\\\DREAD - A Horror Survival Pack\\\\config\" -Name | Where-Object { $_ -match \"tacz|craft|recipe|gun|weapon\" })",
+      "PowerShell(Get-ChildItem \"c:\\\\Users\\\\redzt\\\\Desktop\\\\PC\\\\MCServer\\\\Dread\\\\mods\" -Name | Where-Object { $_ -match \"tacz|gun|weapon|craft\" })",
+      "PowerShell(Get-ChildItem \"c:\\\\Users\\\\redzt\\\\curseforge\\\\minecraft\\\\Instances\\\\DREAD - A Horror Survival Pack\\\\mods\" -Name | Where-Object { $_ -match \"tacz|gun|weapon|craft\" })",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\redzt\\\\curseforge\\\\minecraft\\\\Instances\\\\DREAD - A Horror Survival Pack\\\\mods\\\\_disabled\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\redzt\\\\Desktop\\\\PC\\\\MCServer\\\\Dread\\\\mods\\\\_disabled\")",
+      "PowerShell(Select-String -Path \"c:\\\\Users\\\\redzt\\\\Desktop\\\\PC\\\\MCServer\\\\Dread\\\\logs\\\\latest.log\" -Pattern \"Loaded \\\\d+ recipe\" -CaseSensitive:$false | ForEach-Object { $_.Line })",
+      "PowerShell($lines = Get-Content \"c:\\\\Users\\\\redzt\\\\Desktop\\\\PC\\\\MCServer\\\\Dread\\\\logs\\\\latest.log\"; $idx = \\($lines | Select-String \"Loaded 11 recipes\"\\).LineNumber - 1; $lines[\\($idx-20\\)..\\($idx+10\\)])",
+      "PowerShell(Get-Process -Name \"java\" -ErrorAction SilentlyContinue)",
+      "PowerShell(git -C \"c:\\\\Users\\\\redzt\\\\curseforge\\\\minecraft\\\\Instances\\\\DREAD - A Horror Survival Pack\" init)"
+    ]
+  }
+}

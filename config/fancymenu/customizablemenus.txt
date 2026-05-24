@@ -1,0 +1,20 @@
+type = customizablemenus
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+net.minecraft.client.gui.screens.TitleScreen {
+}
+
+gg.essential.gui.friends.SocialMenu {
+}
+
+net.minecraft.client.gui.screens.PauseScreen {
+}
+
+net.minecraft.client.gui.screens.ConfirmLinkScreen {
+}
+
+net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen {
+}
+

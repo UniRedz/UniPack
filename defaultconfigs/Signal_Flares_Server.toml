@@ -1,0 +1,8 @@
+
+[chat]
+	#Sends out a massage containing players coordinates
+	"Chat Massage" = false
+
+[flares]
+	"Flare Speed" = 3.5
+

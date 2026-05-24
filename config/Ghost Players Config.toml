@@ -1,0 +1,29 @@
+
+["Player Names"]
+	Name1 = ""
+	Name2 = ""
+	Name3 = ""
+	Name4 = ""
+	Name5 = ""
+	Name6 = ""
+	Name7 = ""
+	Name8 = ""
+	Name9 = ""
+	Name10 = ""
+	Name11 = ""
+	Name12 = ""
+	Name13 = ""
+	Name14 = ""
+	Name15 = ""
+	Name16 = ""
+	Name17 = ""
+	Name18 = ""
+	Name19 = ""
+	Name20 = ""
+
+[Allow]
+	#Whether the name list will be used or not
+	AllowListUse = false
+	#Whether the name list is the only list that should be used or not
+	OnlyUseList = false
+

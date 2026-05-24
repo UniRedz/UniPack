@@ -1,0 +1,5 @@
+This folder contains two lists of code that are used for the biome generation of DREAD Reborn using the Biome Replacer mod.
+The "Default" text file contains the code that is by default used for DREAD Reborn biome generation which is already in the "biome_replacer.properties" file in the config folder.
+The "Default with no snow" and "Default + Lots of snow" contains the code for alternative biome generation for DREAD Reborn that is not used, but which is ready to be used by yourself.
+
+Each of these files contain information about the biome generation and a guide on how to set it as the biome generation option for DREAD Reborn

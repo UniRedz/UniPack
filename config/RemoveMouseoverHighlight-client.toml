@@ -1,0 +1,7 @@
+
+["Remove Mouseover Highlight Configs"]
+	#Enables 1 key press to toggle this mod functionality
+	"Use key toggle" = true
+	#Default State for Remove Mouseover Highlight - true = ON // false = OFF
+	"Default State" = true
+

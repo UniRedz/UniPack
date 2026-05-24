@@ -1,0 +1,140 @@
+! Player, this is the no snow DREAD Reborn biome generation list where all Minecraft and Terralith biomes are randomly changed to the list of chosen Terralith biomes
+! Oceans stay the same except from warm and lukewarm oceans with their variants are turned to their cold counterparts 
+
+! This generation option compared to the default one has no snow biomes
+! To use this generation option please delete all code in the file "biome_replacer.properties" in the config folder and copy the code below into "biome_replacer.properties", and save
+
+! THIS GENERATION IS UNDONE AND MIGHT HAVE A FEW ODD BIOMES SLIP THROUGH
+
+# Kept Oceans/rivers
+minecraft:cold_ocean > minecraft:cold_ocean
+minecraft:deep_cold_ocean > minecraft:deep_cold_ocean
+minecraft:deep_frozen_ocean > minecraft:deep_frozen_ocean
+minecraft:deep_ocean > minecraft:deep_ocean
+minecraft:frozen_ocean > minecraft:frozen_ocean
+minecraft:frozen_river > minecraft:frozen_river
+minecraft:ocean > minecraft:ocean
+minecraft:river > minecraft:river
+
+# Swapped Oceans/rivers
+minecraft:deep_lukewarm_ocean > minecraft:deep_cold_ocean
+minecraft:deep_warm_ocean > minecraft:deep_frozen_ocean
+minecraft:lukewarm_ocean > minecraft:cold_ocean
+minecraft:warm_ocean > minecraft:frozen_ocean
+
+# Chosen Biomes
+terralith:forested_highlands > terralith:forested_highlands
+terralith:shield > terralith:shield
+terralith:siberian_taiga > terralith:siberian_taiga
+
+# Swapped Minecraft Biomes
+minecraft:bamboo_jungle > terralith:forested_highlands
+minecraft:badlands > terralith:siberian_taiga
+minecraft:birch_forest > terralith:siberian_taiga
+minecraft:dark_forest > terralith:siberian_taiga
+minecraft:desert > terralith:shield
+minecraft:eroded_badlands > terralith:forested_highlands
+minecraft:flower_forest > terralith:shield
+minecraft:forest > terralith:siberian_taiga
+minecraft:grove > terralith:shield
+minecraft:ice_spikes > terralith:shield
+minecraft:jungle > terralith:siberian_taiga
+minecraft:mangrove_swamp > terralith:shield
+minecraft:meadow > terralith:siberian_taiga
+minecraft:old_growth_birch_forest > terralith:forested_highlands
+minecraft:old_growth_pine_taiga > terralith:shield
+minecraft:old_growth_spruce_taiga > terralith:siberian_taiga
+minecraft:plains > terralith:shield
+minecraft:savanna > terralith:siberian_taiga
+minecraft:savanna_plateau > terralith:forested_highlands
+minecraft:snowy_beach > terralith:shield
+minecraft:snowy_mountains > terralith:siberian_taiga
+minecraft:snowy_plains > terralith:forested_highlands
+minecraft:snowy_taiga > terralith:forested_highlands
+minecraft:snowy_slopes > terralith:shield
+minecraft:snowy_tundra > terralith:forested_highlands
+minecraft:sparse_jungle > terralith:shield
+minecraft:sunflower_plains > terralith:shield
+minecraft:swamp > terralith:shield
+minecraft:taiga > terralith:forested_highlands
+minecraft:wooded_badlands > terralith:shield
+minecraft:windswept_forest > terralith:shield
+minecraft:windswept_gravelly_hills > terralith:siberian_taiga
+minecraft:windswept_hills > terralith:siberian_taiga
+minecraft:windswept_savanna > terralith:siberian_taiga
+
+# Swapped Terralith Biomes
+terralith:alpine_grove > terralith:shield
+terralith:arid_highlands > terralith:shield
+terralith:autumnal_valley > terralith:siberian_taiga
+terralith:amethyst_rainforest  > terralith:siberian_taiga
+terralith:bayou > terralith:siberian_taiga
+terralith:brushland > terralith:shield
+terralith:bryce_canyon > terralith:shield
+terralith:caldera > terralith:shield
+terralith:cedar_forest > terralith:forested_highlands
+terralith:cold_steppe > terralith:shield
+terralith:cold_shrubland > terralith:shield
+terralith:cloud_forest > terralith:forested_highlands
+terralith:crimson_gardens > terralith:forested_highlands
+terralith:crystalline_chasm > terralith:shield
+terralith:deciduous_forest > terralith:siberian_taiga
+terralith:desert_oasis > terralith:siberian_taiga
+terralith:desert_canyon > terralith:forested_highlands
+terralith:desert_dunes > terralith:shield
+terralith:desert_spires > terralith:forested_highlands
+terralith:deep_ocean_ridge > terralith:shield
+terralith:eroded_badlands > terralith:forested_highlands
+terralith:fractured_savanna > terralith:forested_highlands
+terralith:fir_clearing > terralith:shield
+terralith:fir_forest > terralith:shield
+terralith:glacial_chasm > terralith:forested_highlands
+terralith:glowstone_gardens > terralith:forested_highlands
+terralith:granite_ridge > terralith:shield
+terralith:gravel_desert > terralith:siberian_taiga
+terralith:haze_mountain > terralith:forested_highlands
+terralith:highlands > terralith:shield
+terralith:hot_shrubland > terralith:siberian_taiga
+terralith:ice_marsh > terralith:forested_highlands
+terralith:jungle_mountains > terralith:siberian_taiga
+terralith:juniper_forest > terralith:shield
+terralith:lavender_valley > terralith:forested_highlands
+terralith:lush_desert > terralith:forested_highlands
+terralith:lush_valley > terralith:forested_highlands
+terralith:maple_forest > terralith:shield
+terralith:mirage_isles > terralith:shield
+terralith:monsoon_forest > terralith:siberian_taiga
+terralith:mixed_forest > terralith:siberian_taiga
+terralith:mushroom_fields > terralith:shield
+terralith:mushroom_forest > terralith:shield
+terralith:moonlight_valley > terralith:forested_highlands
+terralith:oasis > terralith:siberian_taiga
+terralith:oceanic_plains > terralith:shield
+terralith:quartz_desert > terralith:shield
+terralith:rainforest > terralith:shield
+terralith:rocky_jungle > terralith:forested_highlands
+terralith:red_mountains > terralith:siberian_taiga
+terralith:red_oasis > terralith:forested_highlands
+terralith:sandstone_valley > terralith:siberian_taiga
+terralith:sakura_valley > terralith:shield
+terralith:shrubland > terralith:forested_highlands
+terralith:snowy_monolith > terralith:shield
+terralith:skylands > terralith:shield
+terralith:spires > terralith:forested_highlands
+terralith:starlight_valley > terralith:shield
+terralith:steppe > terralith:siberian_taiga
+terralith:taiga_scrubland > terralith:siberian_taiga
+terralith:temperate_forest > terralith:forested_highlands
+terralith:tropical_jungle > terralith:siberian_taiga
+terralith:tropics > terralith:forested_highlands
+terralith:volcanic_plains > terralith:siberian_taiga
+terralith:wooded_badlands  > terralith:siberian_taiga
+terralith:warm_beach > terralith:shield
+terralith:white_cliffs > terralith:forested_highlands
+terralith:windswept_spires > terralith:siberian_taiga
+terralith:yellowstone > terralith:siberian_taiga
+
+terralith:skylands_winter  > terralith:siberian_taiga 
+terralith:skylands_spring  > terralith:siberian_taiga 
+terralith:skylands_summer  > terralith:siberian_taiga 
+terralith:skylands_autumn  > terralith:siberian_taiga 

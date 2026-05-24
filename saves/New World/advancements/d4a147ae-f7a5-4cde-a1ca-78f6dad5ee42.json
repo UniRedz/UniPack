@@ -1,0 +1,21 @@
+{
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2026-05-23 23:05:43 +0200"
+    },
+    "done": true
+  },
+  "betterdungeons:root": {
+    "criteria": {
+      "always": "2026-05-23 23:05:43 +0200"
+    },
+    "done": true
+  },
+  "parcool:grant_parcool_guide": {
+    "criteria": {
+      "tick": "2026-05-23 23:05:43 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3120
+}

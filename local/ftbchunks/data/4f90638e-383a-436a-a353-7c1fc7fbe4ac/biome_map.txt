@@ -1,0 +1,7 @@
+#556 minecraft:beach
+#5E2 terralith:forested_highlands
+#78A terralith:gravel_beach
+#4F1 minecraft:ocean
+#5FF minecraft:river
+#4C8 terralith:shield
+#553 terralith:siberian_taiga

@@ -1,0 +1,42 @@
+{
+  "allowMovement": {
+    "net.minecraft.client.gui.screens.PauseScreen": true,
+    "net.minecraft.client.gui.screens.OptionsScreen": true,
+    "net.minecraft.client.gui.screens.SoundOptionsScreen": true,
+    "net.minecraft.client.gui.screens.controls.ControlsScreen": true,
+    "net.minecraft.client.gui.screens.MouseSettingsScreen": true,
+    "me.jellysquid.mods.sodium.client.gui.SodiumOptionsGUI": true,
+    "gg.essential.gui.vigilancev2.VigilanceV2SettingsGui": true,
+    "net.minecraft.client.gui.screens.AccessibilityOptionsScreen": true,
+    "net.coderbot.iris.gui.screen.ShaderPackScreen": true,
+    "net.minecraftforge.client.gui.ModListScreen": true,
+    "de.maxhenkel.voicechat.gui.onboarding.IntroductionOnboardingScreen": true,
+    "de.maxhenkel.voicechat.gui.onboarding.SkipOnboardingScreen": true,
+    "dev.ftb.mods.ftblibrary.ui.ScreenWrapper": true,
+    "gg.essential.gui.friends.SocialMenu": true,
+    "com.natamus.starterkit_common_forge.inventory.StarterKitInventoryScreen": true,
+    "de.maxhenkel.corpse.gui.CorpseInventoryScreen": true,
+    "net.mcreator.signalflares.client.gui.ReloadScreen": true,
+    "com.tacz.guns.client.gui.GunSmithTableScreen": true,
+    "de.maxhenkel.voicechat.gui.VoiceChatScreen": true,
+    "de.maxhenkel.voicechat.gui.group.JoinGroupScreen": true,
+    "com.minecraftserverzone.weaponmaster.gui.WeaponMasterScreen": true,
+    "de.maxhenkel.corpse.gui.DeathHistoryScreen": true,
+    "com.minecraftserverzone.weaponmaster.gui.DetailedSettingsScreen": true,
+    "mezz.jei.gui.recipes.RecipesGui": true,
+    "com.mrcrayfish.configured.client.screen.ModConfigSelectionScreen": true,
+    "com.mrcrayfish.configured.client.screen.ConfigScreen": true,
+    "com.mrcrayfish.configured.client.screen.EditStringScreen": true,
+    "com.mrcrayfish.configured.client.screen.ConfirmationScreen": true,
+    "com.tacz.guns.client.gui.GunRefitScreen": true,
+    "net.minecraft.client.gui.screens.ConfirmLinkScreen": true
+  },
+  "hideBackground": {
+    "dev.ftb.mods.ftblibrary.ui.ScreenWrapper": true,
+    "de.maxhenkel.corpse.gui.CorpseInventoryScreen": true,
+    "net.mcreator.signalflares.client.gui.ReloadScreen": true,
+    "com.tacz.guns.client.gui.GunSmithTableScreen": true,
+    "de.maxhenkel.corpse.gui.DeathHistoryScreen": true,
+    "mezz.jei.gui.recipes.RecipesGui": true
+  }
+}

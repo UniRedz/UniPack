@@ -1,0 +1,39 @@
+
+#Combat Toggle server configuration
+[server]
+	#Cooldown duration in seconds (default 600 = 10 minutes)
+	#Range: 0 ~ 86400
+	cooldownSeconds = 600
+	#Combat tag duration after PvP interaction in seconds (default 30)
+	#Range: 0 ~ 3600
+	combatTagSeconds = 30
+	#If true, PvP only works when BOTH attacker and victim are in Combat mode. If false, only attacker matters.
+	requireBothCombatEnabled = true
+	#If true, players are forced into Combat mode while combat-tagged
+	forceCombatWhileTagged = true
+	#If true, players can still toggle while tagged. If false, toggling to Peace is denied while tagged.
+	allowToggleWhileTagged = false
+	#If true, admins can bypass cooldown via commands
+	allowAdminBypassCooldown = true
+	#If true, cooldown starts when player toggles mode. If false, toggling is always instant (unless PvP-triggered cooldown is active)
+	cooldownTriggersOnToggle = false
+	#If true, cooldown starts when player deals or receives PvP damage. Recommended: true
+	cooldownTriggersOnPvp = true
+	#If true, cooldown only prevents toggling TO Peace mode (Combat->Peace blocked, Peace->Combat always allowed). If false, cooldown blocks both directions.
+	cooldownAppliesToPeaceOnly = true
+
+#Nameplate visual customization
+[nameplate]
+	#If true, adds text/emoji prefixes to player nameplates
+	useEmojiPrefixes = true
+	#Text/emoji prefix for Combat mode players (default: [PVP] with space). Use Unicode escapes for emojis: \u2694 for crossed swords
+	combatEmoji = ""
+	#Text/emoji prefix for Peace mode players (default: [PEACE] with space). Use Unicode escapes for emojis: \uD83D\uDEE1 for shield
+	peaceEmoji = ""
+	#If true, uses scoreboard team colors (RED for Combat, BLUE for Peace)
+	useNameplateColors = false
+
+#Client-facing toggles that are still controlled by server config
+[client]
+	showHud = false
+

@@ -1,0 +1,18 @@
+! THIS SECTION IS FOR CAVES, IT IS ADDED ONTO THE BOTTOM OF THE NORMAL GENERATION LIST IN THE BIOME REPLACER FILE
+
+# Minecraft caves
+minecraft:cave
+minecraft:dripstone_caves
+minecraft:lush_caves > minecraft:dripstone_caves
+
+# Terralith Caves (swappable)
+terralith:amethyst_caves
+terralith:crystalline_caves
+terralith:deep_amethyst_caves
+terralith:echo_caves
+terralith:fungal_caves
+terralith:glimmering_caves
+terralith:mossy_caves
+terralith:quartz_caves
+terralith:stalactite_caves
+terralith:stone_chasms
