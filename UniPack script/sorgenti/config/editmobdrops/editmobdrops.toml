@@ -1,0 +1,12 @@
+#If debug mode is active, the mod will log when items are dropped
+debugMode = false
+#Items to add, in the form modid:itemName:[nbtfile]:minStackSize:maxStackSize:universalChance:[monsterChance]:[bossChance]:[group1Chance]:[group2Chance]...
+#Chances are %
+#NBT File is a json file in the "editmobdrops" folder here in config (leave blank for none)
+itemsToAdd = []
+#Mob groups, in the form [EntityModid]:[EntityName]:[EntityModid]:[EntityName]...
+mobGroups = []
+#Mobs to clear existing drops from (creeper azzerato per rimpiazzare con drop fisso)
+mobsToClear = []
+#Single mob items, in the form EntityModid:EntityName:modid:itemName:[nbtfile]:minStackSize:maxStackSize:chance
+singleMobItems = ["minecraft:creeper:minecraft:gunpowder::6:7:100", "minecraft:skeleton:minecraft:bone::0:2:100", "minecraft:skeleton:minecraft:arrow::0:2:100"]

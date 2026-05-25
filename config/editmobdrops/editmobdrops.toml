@@ -6,7 +6,8 @@ debugMode = false
 itemsToAdd = []
 #Mob groups, in the form [EntityModid]:[EntityName]:[EntityModid]:[EntityName]...
 mobGroups = []
-#Mobs to clear existing drops from (creeper azzerato per rimpiazzare con drop fisso)
+#Mobs to clear existing drops from
 mobsToClear = []
 #Single mob items, in the form EntityModid:EntityName:modid:itemName:[nbtfile]:minStackSize:maxStackSize:chance
 singleMobItems = ["minecraft:creeper:minecraft:gunpowder::6:7:100", "minecraft:skeleton:minecraft:bone::0:2:100", "minecraft:skeleton:minecraft:arrow::0:2:100"]
+

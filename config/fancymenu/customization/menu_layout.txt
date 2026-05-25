@@ -114,9 +114,9 @@ element {
   sticky_anchor = false
   anchor_point = mid-centered
   x = 118
-  y = 100
-  width = 520
-  height = 260
+  y = 60
+  width = 220
+  height = 272
   stretch_x = false
   stretch_y = false
   stay_on_screen = false
@@ -431,7 +431,7 @@ element {
 
 element {
   interactable = true
-  source = UniPack 1.0
+  source = UniPack v1.0
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -476,9 +476,9 @@ element {
   auto_sizing_base_screen_height = 1440
   sticky_anchor = false
   anchor_point = mid-centered
-  x = 602
+  x = 570
   y = 345
-  width = 33
+  width = 80
   height = 17
   stretch_x = false
   stretch_y = false

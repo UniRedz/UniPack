@@ -1,0 +1,370 @@
+[000.000][16:45:21.071][INFO] Log starts at 2026-05-25T14:45:21.071304400Z (16:45:21.071304400 local time)
+[000.006][16:45:21.077][DEBUG] Manager now in used by connection 3
+[000.017][16:45:21.088][TRACE] Skipping network interface because it is a loopback interface: name:lo (Software Loopback Interface 1)
+[000.020][16:45:21.092][TRACE] Skipping network interface because it is not up: name:net0 (Microsoft 6to4 Adapter)
+[000.024][16:45:21.095][TRACE] Skipping network interface because it is not up: name:eth0 (WAN Miniport (IP))
+[000.028][16:45:21.099][TRACE] Skipping network interface because it is not up: name:net1 (WAN Miniport (IKEv2))
+[000.031][16:45:21.103][TRACE] Skipping network interface because it is not up: name:net2 (WAN Miniport (SSTP))
+[000.035][16:45:21.106][TRACE] Skipping network interface because it is not up: name:eth1 (Microsoft Kernel Debug Network Adapter)
+[000.038][16:45:21.110][TRACE] Skipping network interface because it is not up: name:net3 (Microsoft IP-HTTPS Platform Adapter)
+[000.042][16:45:21.113][TRACE] Skipping network interface because it is not up: name:net4 (TAP-NordVPN Windows Adapter V9)
+[000.045][16:45:21.116][TRACE] Skipping network interface because it is not up: name:net5 (OpenVPN Data Channel Offload)
+[000.049][16:45:21.120][TRACE] Network interface name:eth2 (Realtek PCIe GbE Family Controller) has addresses: [/192.168.1.107]
+[000.053][16:45:21.124][TRACE] Network interface name:eth3 (Famatech Radmin VPN Ethernet Adapter) has addresses: [/26.32.4.227, /fdfd:0:0:0:0:0:1a20:4e3, /fe80:0:0:0:5e78:5c2a:3145:3537%eth3]
+[000.058][16:45:21.129][TRACE] Skipping network interface because it is not up: name:ppp0 (WAN Miniport (PPPOE))
+[000.059][16:45:21.130][DEBUG] [192.168.1.107:64045] Contacting STUN server us.stun.essential.gg/40.160.66.10:3478
+[000.059][16:45:21.130][TRACE] [192.168.1.107:64045 <> 40.160.66.10:3478] [G4qczOoElGgPjGUF] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=G4qczOoElGgPjGUF, attributes=[])
+[000.059][16:45:21.130][TRACE] [192.168.1.107:64045 <> 40.160.66.10:3478] [G4qczOoElGgPjGUF] Sending STUN request, attempt 1/7
+[000.062][16:45:21.133][TRACE] Network interface name:net6 (Microsoft Teredo Tunneling Adapter) has addresses: [/2001:0:4625:9800:1463:6d4d:a2d2:a514, /fe80:0:0:0:1463:6d4d:a2d2:a514%net6]
+[000.064][16:45:21.135][DEBUG] [26.32.4.227:64048] Contacting STUN server us.stun.essential.gg/40.160.66.10:3478
+[000.064][16:45:21.135][TRACE] [26.32.4.227:64048 <> 40.160.66.10:3478] [vTr7ZMDhsgeya5LB] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=vTr7ZMDhsgeya5LB, attributes=[])
+[000.064][16:45:21.136][TRACE] [26.32.4.227:64048 <> 40.160.66.10:3478] [vTr7ZMDhsgeya5LB] Sending STUN request, attempt 1/7
+[000.066][16:45:21.137][TRACE] Skipping network interface because it is not up: name:eth4 (WAN Miniport (IPv6))
+[000.070][16:45:21.142][TRACE] Skipping network interface because it is not up: name:net7 (Wintun Userspace Tunnel)
+[000.071][16:45:21.142][DEBUG] [192.168.1.107:64045] Contacting STUN server eu.stun.essential.gg/51.195.24.116:3478
+[000.071][16:45:21.142][TRACE] [192.168.1.107:64045 <> 51.195.24.116:3478] [9pbV/nsRixqC6el0] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=9pbV/nsRixqC6el0, attributes=[])
+[000.071][16:45:21.142][TRACE] [192.168.1.107:64045 <> 51.195.24.116:3478] [9pbV/nsRixqC6el0] Sending STUN request, attempt 1/7
+[000.075][16:45:21.146][TRACE] Skipping network interface because it is not up: name:eth5 (WAN Miniport (Network Monitor))
+[000.077][16:45:21.148][DEBUG] [26.32.4.227:64048] Contacting STUN server eu.stun.essential.gg/51.195.24.116:3478
+[000.077][16:45:21.148][TRACE] [26.32.4.227:64048 <> 51.195.24.116:3478] [UsyrajgdiuDVlyEX] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=UsyrajgdiuDVlyEX, attributes=[])
+[000.077][16:45:21.148][TRACE] [26.32.4.227:64048 <> 51.195.24.116:3478] [UsyrajgdiuDVlyEX] Sending STUN request, attempt 1/7
+[000.078][16:45:21.150][TRACE] Skipping network interface because it is not up: name:net8 (WAN Miniport (PPTP))
+[000.082][16:45:21.154][TRACE] Skipping network interface because it is not up: name:eth6 (Bluetooth Device (Personal Area Network) #2)
+[000.083][16:45:21.154][DEBUG] [192.168.1.107:64045] Contacting STUN server as.stun.essential.gg/15.235.229.89:3478
+[000.083][16:45:21.154][TRACE] [192.168.1.107:64045 <> 15.235.229.89:3478] [r4+QAuWVPBH9c0ss] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=r4+QAuWVPBH9c0ss, attributes=[])
+[000.083][16:45:21.154][TRACE] [192.168.1.107:64045 <> 15.235.229.89:3478] [r4+QAuWVPBH9c0ss] Sending STUN request, attempt 1/7
+[000.086][16:45:21.158][TRACE] Network interface name:net9 (NordLynx Tunnel) has addresses: [/10.5.0.2, /fe80:0:0:0:ee24:8a09:283e:7cf9%net9]
+[000.088][16:45:21.160][DEBUG] [26.32.4.227:64048] Contacting STUN server as.stun.essential.gg/15.235.229.89:3478
+[000.088][16:45:21.160][TRACE] [26.32.4.227:64048 <> 15.235.229.89:3478] [5MFvm74LO8pKuzz1] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=5MFvm74LO8pKuzz1, attributes=[])
+[000.088][16:45:21.160][TRACE] [26.32.4.227:64048 <> 15.235.229.89:3478] [5MFvm74LO8pKuzz1] Sending STUN request, attempt 1/7
+[000.091][16:45:21.162][TRACE] Skipping network interface because it is not up: name:net10 (WAN Miniport (L2TP))
+[000.094][16:45:21.166][TRACE] Skipping network interface because it is not up: name:eth7 (Realtek PCIe GbE Family Controller-WFP Native MAC Layer LightWeight Filter-0000)
+[000.095][16:45:21.166][DEBUG] [192.168.1.107:64045] Contacting STUN server au.stun.essential.gg/51.161.174.239:3478
+[000.095][16:45:21.166][TRACE] [192.168.1.107:64045 <> 51.161.174.239:3478] [pZsNNw7kHs6oizbQ] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=pZsNNw7kHs6oizbQ, attributes=[])
+[000.095][16:45:21.166][TRACE] [192.168.1.107:64045 <> 51.161.174.239:3478] [pZsNNw7kHs6oizbQ] Sending STUN request, attempt 1/7
+[000.096][16:45:21.167][TRACE] [192.168.1.107:64045 <> 51.195.24.116:3478] [9pbV/nsRixqC6el0] Received response: StunMessage(type=Binding, cls=ResponseSuccess, transactionId=9pbV/nsRixqC6el0, attributes=[XorMappedAddress(address=/93.45.90.235:37256), MappedAddress(address=/93.45.90.235:37256)])
+[000.096][16:45:21.167][DEBUG] [192.168.1.107:64045 <> 51.195.24.116:3478] Received public address from STUN server: /93.45.90.235:37256
+[000.099][16:45:21.170][TRACE] Skipping network interface because it is not up: name:eth8 (Realtek PCIe GbE Family Controller-Npcap Packet Driver (NPCAP)-0000)
+[000.101][16:45:21.172][DEBUG] [10.5.0.2:64052] Contacting STUN server us.stun.essential.gg/40.160.66.10:3478
+[000.101][16:45:21.172][TRACE] [10.5.0.2:64052 <> 40.160.66.10:3478] [5OX2vP7fFx0qfyzW] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=5OX2vP7fFx0qfyzW, attributes=[])
+[000.101][16:45:21.172][TRACE] [10.5.0.2:64052 <> 40.160.66.10:3478] [5OX2vP7fFx0qfyzW] Sending STUN request, attempt 1/7
+[000.101][16:45:21.172][TRACE] [10.5.0.2:64052] Failed to send to us.stun.essential.gg/40.160.66.10:3478: Network is unreachable: no further information
+[000.101][16:45:21.172][TRACE] [10.5.0.2:64052 <> 40.160.66.10:3478] [5OX2vP7fFx0qfyzW] Failed to send packet, aborting
+[000.101][16:45:21.172][WARN] [10.5.0.2:64052 <> 40.160.66.10:3478] Failed to contact STUN server, timed out.
+[000.102][16:45:21.174][TRACE] Skipping network interface because it is not up: name:eth9 (Realtek PCIe GbE Family Controller-QoS Packet Scheduler-0000)
+[000.106][16:45:21.177][DEBUG] [26.32.4.227:64048] Contacting STUN server au.stun.essential.gg/51.161.174.239:3478
+[000.106][16:45:21.177][TRACE] [26.32.4.227:64048 <> 51.161.174.239:3478] [url289+u7yxsJwiY] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=url289+u7yxsJwiY, attributes=[])
+[000.106][16:45:21.177][TRACE] [26.32.4.227:64048 <> 51.161.174.239:3478] [url289+u7yxsJwiY] Sending STUN request, attempt 1/7
+[000.107][16:45:21.178][TRACE] Skipping network interface because it is not up: name:eth10 (Realtek PCIe GbE Family Controller-WFP 802.3 MAC Layer LightWeight Filter-0000)
+[000.113][16:45:21.184][DEBUG] [192.168.1.107:64045] Contacting TURN server us.turn.essential.gg/40.160.66.10:3478
+[000.113][16:45:21.184][TRACE] [192.168.1.107:64045 <> 40.160.66.10:3478] [uyfCsZXd5zAGOgu9] Begin STUN request: StunMessage(type=Allocate, cls=Request, transactionId=uyfCsZXd5zAGOgu9, attributes=[RequestedTransport])
+[000.113][16:45:21.184][TRACE] [192.168.1.107:64045 <> 40.160.66.10:3478] [uyfCsZXd5zAGOgu9] Sending STUN request, attempt 1/7
+[000.113][16:45:21.184][TRACE] Skipping network interface because it is not up: name:net11 (OpenVPN Data Channel Offload-Npcap Packet Driver (NPCAP)-0000)
+[000.118][16:45:21.189][TRACE] Skipping network interface because it is not up: name:net12 (TAP-NordVPN Windows Adapter V9-WFP Native MAC Layer LightWeight Filter-0000)
+[000.119][16:45:21.190][DEBUG] [10.5.0.2:64052] Contacting STUN server eu.stun.essential.gg/51.195.24.116:3478
+[000.119][16:45:21.191][TRACE] [10.5.0.2:64052 <> 51.195.24.116:3478] [/ctF06pHJywD6BVW] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=/ctF06pHJywD6BVW, attributes=[])
+[000.119][16:45:21.191][TRACE] [10.5.0.2:64052 <> 51.195.24.116:3478] [/ctF06pHJywD6BVW] Sending STUN request, attempt 1/7
+[000.119][16:45:21.191][TRACE] [10.5.0.2:64052] Failed to send to eu.stun.essential.gg/51.195.24.116:3478: Network is unreachable: no further information
+[000.119][16:45:21.191][TRACE] [10.5.0.2:64052 <> 51.195.24.116:3478] [/ctF06pHJywD6BVW] Failed to send packet, aborting
+[000.120][16:45:21.191][WARN] [10.5.0.2:64052 <> 51.195.24.116:3478] Failed to contact STUN server, timed out.
+[000.122][16:45:21.193][TRACE] Skipping network interface because it is not up: name:net13 (TAP-NordVPN Windows Adapter V9-Npcap Packet Driver (NPCAP)-0000)
+[000.125][16:45:21.197][TRACE] Skipping network interface because it is not up: name:net14 (TAP-NordVPN Windows Adapter V9-QoS Packet Scheduler-0000)
+[000.126][16:45:21.197][DEBUG] [26.32.4.227:64048] Contacting TURN server us.turn.essential.gg/40.160.66.10:3478
+[000.126][16:45:21.197][TRACE] [26.32.4.227:64048 <> 40.160.66.10:3478] [AcmyvIkypWUZKm8t] Begin STUN request: StunMessage(type=Allocate, cls=Request, transactionId=AcmyvIkypWUZKm8t, attributes=[RequestedTransport])
+[000.126][16:45:21.197][TRACE] [26.32.4.227:64048 <> 40.160.66.10:3478] [AcmyvIkypWUZKm8t] Sending STUN request, attempt 1/7
+[000.130][16:45:21.202][TRACE] Skipping network interface because it is not up: name:net15 (TAP-NordVPN Windows Adapter V9-WFP 802.3 MAC Layer LightWeight Filter-0000)
+[000.133][16:45:21.204][DEBUG] [192.168.1.107:64045] Contacting TURN server eu.turn.essential.gg/51.195.24.116:3478
+[000.133][16:45:21.204][TRACE] [192.168.1.107:64045 <> 51.195.24.116:3478] [9vkzv8hhjbLXhkhu] Begin STUN request: StunMessage(type=Allocate, cls=Request, transactionId=9vkzv8hhjbLXhkhu, attributes=[RequestedTransport])
+[000.133][16:45:21.204][TRACE] [192.168.1.107:64045 <> 51.195.24.116:3478] [9vkzv8hhjbLXhkhu] Sending STUN request, attempt 1/7
+[000.134][16:45:21.205][TRACE] Skipping network interface because it is not up: name:eth11 (Famatech Radmin VPN Ethernet Adapter-WFP Native MAC Layer LightWeight Filter-0000)
+[000.138][16:45:21.210][DEBUG] [10.5.0.2:64052] Contacting STUN server as.stun.essential.gg/15.235.229.89:3478
+[000.138][16:45:21.210][TRACE] [10.5.0.2:64052 <> 15.235.229.89:3478] [UKcXcrpbuKb92ves] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=UKcXcrpbuKb92ves, attributes=[])
+[000.138][16:45:21.210][TRACE] [10.5.0.2:64052 <> 15.235.229.89:3478] [UKcXcrpbuKb92ves] Sending STUN request, attempt 1/7
+[000.138][16:45:21.210][TRACE] [10.5.0.2:64052] Failed to send to as.stun.essential.gg/15.235.229.89:3478: Network is unreachable: no further information
+[000.138][16:45:21.210][TRACE] [10.5.0.2:64052 <> 15.235.229.89:3478] [UKcXcrpbuKb92ves] Failed to send packet, aborting
+[000.138][16:45:21.210][TRACE] Skipping network interface because it is not up: name:eth12 (Famatech Radmin VPN Ethernet Adapter-Npcap Packet Driver (NPCAP)-0000)
+[000.138][16:45:21.210][WARN] [10.5.0.2:64052 <> 15.235.229.89:3478] Failed to contact STUN server, timed out.
+[000.143][16:45:21.214][TRACE] Skipping network interface because it is not up: name:eth13 (Famatech Radmin VPN Ethernet Adapter-QoS Packet Scheduler-0000)
+[000.144][16:45:21.216][DEBUG] [26.32.4.227:64048] Contacting TURN server eu.turn.essential.gg/51.195.24.116:3478
+[000.144][16:45:21.216][TRACE] [26.32.4.227:64048 <> 51.195.24.116:3478] [Cv1U/cQdhsZDrCEf] Begin STUN request: StunMessage(type=Allocate, cls=Request, transactionId=Cv1U/cQdhsZDrCEf, attributes=[RequestedTransport])
+[000.144][16:45:21.216][TRACE] [26.32.4.227:64048 <> 51.195.24.116:3478] [Cv1U/cQdhsZDrCEf] Sending STUN request, attempt 1/7
+[000.148][16:45:21.220][TRACE] Skipping network interface because it is not up: name:eth14 (Famatech Radmin VPN Ethernet Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000)
+[000.150][16:45:21.221][DEBUG] [192.168.1.107:64045] Contacting TURN server as.turn.essential.gg/15.235.229.89:3478
+[000.150][16:45:21.221][TRACE] [192.168.1.107:64045 <> 15.235.229.89:3478] [e8XBiy0+7qljqrZy] Begin STUN request: StunMessage(type=Allocate, cls=Request, transactionId=e8XBiy0+7qljqrZy, attributes=[RequestedTransport])
+[000.150][16:45:21.221][TRACE] [192.168.1.107:64045 <> 15.235.229.89:3478] [e8XBiy0+7qljqrZy] Sending STUN request, attempt 1/7
+[000.153][16:45:21.224][TRACE] Skipping network interface because it is not up: name:net16 (NordLynx Tunnel-Npcap Packet Driver (NPCAP)-0000)
+[000.155][16:45:21.227][DEBUG] [10.5.0.2:64052] Contacting STUN server au.stun.essential.gg/51.161.174.239:3478
+[000.155][16:45:21.227][TRACE] [10.5.0.2:64052 <> 51.161.174.239:3478] [+irldc8pbEwy3EHg] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=+irldc8pbEwy3EHg, attributes=[])
+[000.155][16:45:21.227][TRACE] [10.5.0.2:64052 <> 51.161.174.239:3478] [+irldc8pbEwy3EHg] Sending STUN request, attempt 1/7
+[000.155][16:45:21.227][TRACE] [10.5.0.2:64052] Failed to send to au.stun.essential.gg/51.161.174.239:3478: Network is unreachable: no further information
+[000.155][16:45:21.227][TRACE] [10.5.0.2:64052 <> 51.161.174.239:3478] [+irldc8pbEwy3EHg] Failed to send packet, aborting
+[000.156][16:45:21.227][WARN] [10.5.0.2:64052 <> 51.161.174.239:3478] Failed to contact STUN server, timed out.
+[000.157][16:45:21.228][TRACE] Skipping network interface because it is not up: name:eth15 (WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000)
+[000.158][16:45:21.230][TRACE] [192.168.1.107:64045 <> 51.195.24.116:3478] [9vkzv8hhjbLXhkhu] Received response: StunMessage(type=Allocate, cls=ResponseSuccess, transactionId=9vkzv8hhjbLXhkhu, attributes=[XorRelayedAddress(address=/51.195.24.116:59542), XorMappedAddress(address=/93.45.90.235:37256), Lifetime(seconds=600)])
+[000.159][16:45:21.230][DEBUG] [192.168.1.107:64045 <> 51.195.24.116:3478] Received public address: /93.45.90.235:37256
+[000.159][16:45:21.230][DEBUG] [192.168.1.107:64045 <> 51.195.24.116:3478] Received relayed address: /51.195.24.116:59542
+[000.159][16:45:21.230][TRACE] [192.168.1.107:64045 <> 51.195.24.116:3478] [tFDMFS3JzWOdO3PJ] Begin STUN request: StunMessage(type=CreatePermission, cls=Request, transactionId=tFDMFS3JzWOdO3PJ, attributes=[XorPeerAddress(address=/51.195.24.116:0)])
+[000.159][16:45:21.230][TRACE] [192.168.1.107:64045 <> 51.195.24.116:3478] [tFDMFS3JzWOdO3PJ] Sending STUN request, attempt 1/7
+[000.160][16:45:21.232][TRACE] Skipping network interface because it is not up: name:eth16 (WAN Miniport (IP)-Npcap Packet Driver (NPCAP)-0000)
+[000.161][16:45:21.233][DEBUG] [26.32.4.227:64048] Contacting TURN server as.turn.essential.gg/15.235.229.89:3478
+[000.161][16:45:21.233][TRACE] [26.32.4.227:64048 <> 15.235.229.89:3478] [B1jNx0v7fjaiP0mA] Begin STUN request: StunMessage(type=Allocate, cls=Request, transactionId=B1jNx0v7fjaiP0mA, attributes=[RequestedTransport])
+[000.161][16:45:21.233][TRACE] [26.32.4.227:64048 <> 15.235.229.89:3478] [B1jNx0v7fjaiP0mA] Sending STUN request, attempt 1/7
+[000.164][16:45:21.235][TRACE] Skipping network interface because it is not up: name:eth17 (WAN Miniport (IP)-QoS Packet Scheduler-0000)
+[000.167][16:45:21.238][DEBUG] [192.168.1.107:64045] Contacting TURN server au.turn.essential.gg/51.161.174.239:3478
+[000.167][16:45:21.238][TRACE] [192.168.1.107:64045 <> 51.161.174.239:3478] [2oZ+M/4WjuxCUM3X] Begin STUN request: StunMessage(type=Allocate, cls=Request, transactionId=2oZ+M/4WjuxCUM3X, attributes=[RequestedTransport])
+[000.167][16:45:21.238][TRACE] [192.168.1.107:64045 <> 51.161.174.239:3478] [2oZ+M/4WjuxCUM3X] Sending STUN request, attempt 1/7
+[000.168][16:45:21.239][TRACE] Skipping network interface because it is not up: name:eth18 (WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000)
+[000.170][16:45:21.241][TRACE] [192.168.1.107:64045 <> 40.160.66.10:3478] [G4qczOoElGgPjGUF] Received response: StunMessage(type=Binding, cls=ResponseSuccess, transactionId=G4qczOoElGgPjGUF, attributes=[XorMappedAddress(address=/93.45.90.235:37256), MappedAddress(address=/93.45.90.235:37256)])
+[000.170][16:45:21.241][DEBUG] [192.168.1.107:64045 <> 40.160.66.10:3478] Received public address from STUN server: /93.45.90.235:37256
+[000.171][16:45:21.243][TRACE] Skipping network interface because it is not up: name:eth19 (WAN Miniport (IPv6)-Npcap Packet Driver (NPCAP)-0000)
+[000.174][16:45:21.246][DEBUG] [10.5.0.2:64052] Contacting TURN server us.turn.essential.gg/40.160.66.10:3478
+[000.174][16:45:21.246][TRACE] [10.5.0.2:64052 <> 40.160.66.10:3478] [PJk6Ph/7nx9B0HLT] Begin STUN request: StunMessage(type=Allocate, cls=Request, transactionId=PJk6Ph/7nx9B0HLT, attributes=[RequestedTransport])
+[000.174][16:45:21.246][TRACE] [10.5.0.2:64052 <> 40.160.66.10:3478] [PJk6Ph/7nx9B0HLT] Sending STUN request, attempt 1/7
+[000.174][16:45:21.246][TRACE] [10.5.0.2:64052 <> 40.160.66.10:3478] [PJk6Ph/7nx9B0HLT] Failed to send packet, aborting
+[000.175][16:45:21.246][WARN] [10.5.0.2:64052 <> 40.160.66.10:3478] Failed to contact TURN server, timed out.
+[000.175][16:45:21.246][TRACE] [10.5.0.2:64052 <> 40.160.66.10:3478] [nLkRCwJW/UfbHdtZ] Begin STUN request: StunMessage(type=Refresh, cls=Request, transactionId=nLkRCwJW/UfbHdtZ, attributes=[Lifetime(seconds=0)])
+[000.175][16:45:21.246][TRACE] [10.5.0.2:64052 <> 40.160.66.10:3478] [nLkRCwJW/UfbHdtZ] Sending STUN request, attempt 1/7
+[000.175][16:45:21.246][TRACE] [10.5.0.2:64052 <> 40.160.66.10:3478] [nLkRCwJW/UfbHdtZ] Failed to send packet, aborting
+[000.175][16:45:21.246][WARN] [10.5.0.2:64052 <> 40.160.66.10:3478] Failed to release TURN allocation, timed out.
+[000.175][16:45:21.246][TRACE] Skipping network interface because it is not up: name:eth20 (WAN Miniport (IPv6)-QoS Packet Scheduler-0000)
+[000.179][16:45:21.250][TRACE] Skipping network interface because it is not up: name:eth21 (WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000)
+[000.181][16:45:21.253][DEBUG] [26.32.4.227:64048] Contacting TURN server au.turn.essential.gg/51.161.174.239:3478
+[000.181][16:45:21.253][TRACE] [26.32.4.227:64048 <> 51.161.174.239:3478] [1j4pWeC2t2zdKfOK] Begin STUN request: StunMessage(type=Allocate, cls=Request, transactionId=1j4pWeC2t2zdKfOK, attributes=[RequestedTransport])
+[000.181][16:45:21.253][TRACE] [26.32.4.227:64048 <> 51.161.174.239:3478] [1j4pWeC2t2zdKfOK] Sending STUN request, attempt 1/7
+[000.182][16:45:21.254][TRACE] Skipping network interface because it is not up: name:eth22 (WAN Miniport (Network Monitor)-Npcap Packet Driver (NPCAP)-0000)
+[000.183][16:45:21.254][TRACE] [192.168.1.107:64045 <> 51.195.24.116:3478] [tFDMFS3JzWOdO3PJ] Received response: StunMessage(type=CreatePermission, cls=ResponseSuccess, transactionId=tFDMFS3JzWOdO3PJ, attributes=[])
+[000.186][16:45:21.257][TRACE] Skipping network interface because it is not up: name:eth23 (WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000)
+[000.187][16:45:21.258][DEBUG] [10.5.0.2:64052] Contacting TURN server eu.turn.essential.gg/51.195.24.116:3478
+[000.187][16:45:21.258][TRACE] [10.5.0.2:64052 <> 51.195.24.116:3478] [TMBY/EFMW0zQM+Fm] Begin STUN request: StunMessage(type=Allocate, cls=Request, transactionId=TMBY/EFMW0zQM+Fm, attributes=[RequestedTransport])
+[000.187][16:45:21.258][TRACE] [10.5.0.2:64052 <> 51.195.24.116:3478] [TMBY/EFMW0zQM+Fm] Sending STUN request, attempt 1/7
+[000.187][16:45:21.258][TRACE] [10.5.0.2:64052 <> 51.195.24.116:3478] [TMBY/EFMW0zQM+Fm] Failed to send packet, aborting
+[000.187][16:45:21.258][WARN] [10.5.0.2:64052 <> 51.195.24.116:3478] Failed to contact TURN server, timed out.
+[000.187][16:45:21.258][TRACE] [10.5.0.2:64052 <> 51.195.24.116:3478] [pV1kbXx/bH247P6n] Begin STUN request: StunMessage(type=Refresh, cls=Request, transactionId=pV1kbXx/bH247P6n, attributes=[Lifetime(seconds=0)])
+[000.187][16:45:21.258][TRACE] [10.5.0.2:64052 <> 51.195.24.116:3478] [pV1kbXx/bH247P6n] Sending STUN request, attempt 1/7
+[000.187][16:45:21.259][TRACE] [10.5.0.2:64052 <> 51.195.24.116:3478] [pV1kbXx/bH247P6n] Failed to send packet, aborting
+[000.187][16:45:21.259][WARN] [10.5.0.2:64052 <> 51.195.24.116:3478] Failed to release TURN allocation, timed out.
+[000.194][16:45:21.265][DEBUG] [10.5.0.2:64052] Contacting TURN server as.turn.essential.gg/15.235.229.89:3478
+[000.194][16:45:21.265][TRACE] [10.5.0.2:64052 <> 15.235.229.89:3478] [5nNA6uqgTm6eGOht] Begin STUN request: StunMessage(type=Allocate, cls=Request, transactionId=5nNA6uqgTm6eGOht, attributes=[RequestedTransport])
+[000.194][16:45:21.265][TRACE] [10.5.0.2:64052 <> 15.235.229.89:3478] [5nNA6uqgTm6eGOht] Sending STUN request, attempt 1/7
+[000.194][16:45:21.265][TRACE] [10.5.0.2:64052 <> 15.235.229.89:3478] [5nNA6uqgTm6eGOht] Failed to send packet, aborting
+[000.194][16:45:21.265][WARN] [10.5.0.2:64052 <> 15.235.229.89:3478] Failed to contact TURN server, timed out.
+[000.194][16:45:21.265][TRACE] [10.5.0.2:64052 <> 15.235.229.89:3478] [Hods5Qq2/HaCQMX6] Begin STUN request: StunMessage(type=Refresh, cls=Request, transactionId=Hods5Qq2/HaCQMX6, attributes=[Lifetime(seconds=0)])
+[000.194][16:45:21.265][TRACE] [10.5.0.2:64052 <> 15.235.229.89:3478] [Hods5Qq2/HaCQMX6] Sending STUN request, attempt 1/7
+[000.194][16:45:21.265][TRACE] [10.5.0.2:64052 <> 15.235.229.89:3478] [Hods5Qq2/HaCQMX6] Failed to send packet, aborting
+[000.194][16:45:21.266][WARN] [10.5.0.2:64052 <> 15.235.229.89:3478] Failed to release TURN allocation, timed out.
+[000.195][16:45:21.266][TRACE] [192.168.1.107:64045 <> 51.195.24.116:3478] [Hdyw7WhRw9o0KhZa] Begin STUN request: StunMessage(type=CreatePermission, cls=Request, transactionId=Hdyw7WhRw9o0KhZa, attributes=[XorPeerAddress(address=/51.195.24.116:0), XorPeerAddress(address=/40.160.66.10:0)])
+[000.195][16:45:21.266][TRACE] [192.168.1.107:64045 <> 51.195.24.116:3478] [Hdyw7WhRw9o0KhZa] Sending STUN request, attempt 1/7
+[000.200][16:45:21.271][DEBUG] [10.5.0.2:64052] Contacting TURN server au.turn.essential.gg/51.161.174.239:3478
+[000.200][16:45:21.271][TRACE] [10.5.0.2:64052 <> 51.161.174.239:3478] [hUIHZCO3doTyGGUd] Begin STUN request: StunMessage(type=Allocate, cls=Request, transactionId=hUIHZCO3doTyGGUd, attributes=[RequestedTransport])
+[000.200][16:45:21.271][TRACE] [10.5.0.2:64052 <> 51.161.174.239:3478] [hUIHZCO3doTyGGUd] Sending STUN request, attempt 1/7
+[000.200][16:45:21.271][TRACE] [10.5.0.2:64052 <> 51.161.174.239:3478] [hUIHZCO3doTyGGUd] Failed to send packet, aborting
+[000.200][16:45:21.271][WARN] [10.5.0.2:64052 <> 51.161.174.239:3478] Failed to contact TURN server, timed out.
+[000.200][16:45:21.271][TRACE] [10.5.0.2:64052 <> 51.161.174.239:3478] [FEkNFkrOjLF9lZZf] Begin STUN request: StunMessage(type=Refresh, cls=Request, transactionId=FEkNFkrOjLF9lZZf, attributes=[Lifetime(seconds=0)])
+[000.200][16:45:21.271][TRACE] [10.5.0.2:64052 <> 51.161.174.239:3478] [FEkNFkrOjLF9lZZf] Sending STUN request, attempt 1/7
+[000.200][16:45:21.272][TRACE] [10.5.0.2:64052 <> 51.161.174.239:3478] [FEkNFkrOjLF9lZZf] Failed to send packet, aborting
+[000.200][16:45:21.272][WARN] [10.5.0.2:64052 <> 51.161.174.239:3478] Failed to release TURN allocation, timed out.
+[000.219][16:45:21.291][TRACE] [192.168.1.107:64045 <> 51.195.24.116:3478] [Hdyw7WhRw9o0KhZa] Received response: StunMessage(type=CreatePermission, cls=ResponseSuccess, transactionId=Hdyw7WhRw9o0KhZa, attributes=[])
+[000.224][16:45:21.295][TRACE] [192.168.1.107:64045 <> 40.160.66.10:3478] [uyfCsZXd5zAGOgu9] Received response: StunMessage(type=Allocate, cls=ResponseSuccess, transactionId=uyfCsZXd5zAGOgu9, attributes=[XorRelayedAddress(address=/40.160.66.10:61722), XorMappedAddress(address=/93.45.90.235:37256), Lifetime(seconds=600)])
+[000.224][16:45:21.295][DEBUG] [192.168.1.107:64045 <> 40.160.66.10:3478] Received public address: /93.45.90.235:37256
+[000.224][16:45:21.295][DEBUG] [192.168.1.107:64045 <> 40.160.66.10:3478] Received relayed address: /40.160.66.10:61722
+[000.224][16:45:21.296][TRACE] [192.168.1.107:64045 <> 40.160.66.10:3478] [01MjXBcXNGnjdpRA] Begin STUN request: StunMessage(type=CreatePermission, cls=Request, transactionId=01MjXBcXNGnjdpRA, attributes=[XorPeerAddress(address=/40.160.66.10:0)])
+[000.224][16:45:21.296][TRACE] [192.168.1.107:64045 <> 40.160.66.10:3478] [01MjXBcXNGnjdpRA] Sending STUN request, attempt 1/7
+[000.334][16:45:21.405][TRACE] [192.168.1.107:64045 <> 15.235.229.89:3478] [r4+QAuWVPBH9c0ss] Received response: StunMessage(type=Binding, cls=ResponseSuccess, transactionId=r4+QAuWVPBH9c0ss, attributes=[XorMappedAddress(address=/93.45.90.235:37256), MappedAddress(address=/93.45.90.235:37256)])
+[000.334][16:45:21.405][DEBUG] [192.168.1.107:64045 <> 15.235.229.89:3478] Received public address from STUN server: /93.45.90.235:37256
+[000.334][16:45:21.405][TRACE] [192.168.1.107:64045 <> 40.160.66.10:3478] [01MjXBcXNGnjdpRA] Received response: StunMessage(type=CreatePermission, cls=ResponseSuccess, transactionId=01MjXBcXNGnjdpRA, attributes=[])
+[000.357][16:45:21.428][TRACE] [192.168.1.107:64045 <> 51.195.24.116:3478] [rn8F3XCzVRsLRYEp] Begin STUN request: StunMessage(type=CreatePermission, cls=Request, transactionId=rn8F3XCzVRsLRYEp, attributes=[XorPeerAddress(address=/51.195.24.116:0), XorPeerAddress(address=/40.160.66.10:0), XorPeerAddress(address=/15.235.229.89:0)])
+[000.357][16:45:21.428][TRACE] [192.168.1.107:64045 <> 51.195.24.116:3478] [rn8F3XCzVRsLRYEp] Sending STUN request, attempt 1/7
+[000.357][16:45:21.428][TRACE] [192.168.1.107:64045 <> 40.160.66.10:3478] [78r9qYKuJx0j57od] Begin STUN request: StunMessage(type=CreatePermission, cls=Request, transactionId=78r9qYKuJx0j57od, attributes=[XorPeerAddress(address=/40.160.66.10:0), XorPeerAddress(address=/15.235.229.89:0)])
+[000.357][16:45:21.428][TRACE] [192.168.1.107:64045 <> 40.160.66.10:3478] [78r9qYKuJx0j57od] Sending STUN request, attempt 1/7
+[000.380][16:45:21.451][TRACE] [192.168.1.107:64045 <> 51.195.24.116:3478] [rn8F3XCzVRsLRYEp] Received response: StunMessage(type=CreatePermission, cls=ResponseSuccess, transactionId=rn8F3XCzVRsLRYEp, attributes=[])
+[000.404][16:45:21.475][TRACE] [192.168.1.107:64045 <> 15.235.229.89:3478] [e8XBiy0+7qljqrZy] Received response: StunMessage(type=Allocate, cls=ResponseSuccess, transactionId=e8XBiy0+7qljqrZy, attributes=[XorRelayedAddress(address=/15.235.229.89:58075), XorMappedAddress(address=/93.45.90.235:37256), Lifetime(seconds=600)])
+[000.404][16:45:21.475][DEBUG] [192.168.1.107:64045 <> 15.235.229.89:3478] Received public address: /93.45.90.235:37256
+[000.404][16:45:21.475][DEBUG] [192.168.1.107:64045 <> 15.235.229.89:3478] Received relayed address: /15.235.229.89:58075
+[000.404][16:45:21.476][TRACE] [192.168.1.107:64045 <> 15.235.229.89:3478] [eF2rfwQqIMIpOA6R] Begin STUN request: StunMessage(type=CreatePermission, cls=Request, transactionId=eF2rfwQqIMIpOA6R, attributes=[XorPeerAddress(address=/15.235.229.89:0)])
+[000.404][16:45:21.476][TRACE] [192.168.1.107:64045 <> 15.235.229.89:3478] [eF2rfwQqIMIpOA6R] Sending STUN request, attempt 1/7
+[000.424][16:45:21.495][TRACE] [192.168.1.107:64045 <> 51.161.174.239:3478] [pZsNNw7kHs6oizbQ] Received response: StunMessage(type=Binding, cls=ResponseSuccess, transactionId=pZsNNw7kHs6oizbQ, attributes=[XorMappedAddress(address=/93.45.90.235:37256), MappedAddress(address=/93.45.90.235:37256)])
+[000.424][16:45:21.495][DEBUG] [192.168.1.107:64045 <> 51.161.174.239:3478] Received public address from STUN server: /93.45.90.235:37256
+[000.456][16:45:21.527][TRACE] [192.168.1.107:64045 <> 51.195.24.116:3478] [bZ5JqybJgH22B/oH] Begin STUN request: StunMessage(type=CreatePermission, cls=Request, transactionId=bZ5JqybJgH22B/oH, attributes=[XorPeerAddress(address=/51.195.24.116:0), XorPeerAddress(address=/40.160.66.10:0), XorPeerAddress(address=/15.235.229.89:0), XorPeerAddress(address=/51.161.174.239:0)])
+[000.456][16:45:21.527][TRACE] [192.168.1.107:64045 <> 51.195.24.116:3478] [bZ5JqybJgH22B/oH] Sending STUN request, attempt 1/7
+[000.456][16:45:21.527][TRACE] [192.168.1.107:64045 <> 40.160.66.10:3478] [XNNikpREeH8kX5Xv] Begin STUN request: StunMessage(type=CreatePermission, cls=Request, transactionId=XNNikpREeH8kX5Xv, attributes=[XorPeerAddress(address=/40.160.66.10:0), XorPeerAddress(address=/15.235.229.89:0), XorPeerAddress(address=/51.161.174.239:0)])
+[000.456][16:45:21.527][TRACE] [192.168.1.107:64045 <> 40.160.66.10:3478] [XNNikpREeH8kX5Xv] Sending STUN request, attempt 1/7
+[000.456][16:45:21.527][TRACE] [192.168.1.107:64045 <> 15.235.229.89:3478] [3oFDDyU0D1FLQn74] Begin STUN request: StunMessage(type=CreatePermission, cls=Request, transactionId=3oFDDyU0D1FLQn74, attributes=[XorPeerAddress(address=/15.235.229.89:0), XorPeerAddress(address=/51.161.174.239:0)])
+[000.456][16:45:21.527][TRACE] [192.168.1.107:64045 <> 15.235.229.89:3478] [3oFDDyU0D1FLQn74] Sending STUN request, attempt 1/7
+[000.467][16:45:21.539][TRACE] [192.168.1.107:64045 <> 40.160.66.10:3478] [78r9qYKuJx0j57od] Ignoring STUN response because we have no active request for that id.
+[000.479][16:45:21.550][TRACE] [192.168.1.107:64045 <> 51.195.24.116:3478] [bZ5JqybJgH22B/oH] Received response: StunMessage(type=CreatePermission, cls=ResponseSuccess, transactionId=bZ5JqybJgH22B/oH, attributes=[])
+[000.497][16:45:21.569][TRACE] [192.168.1.107:64045 <> 51.161.174.239:3478] [2oZ+M/4WjuxCUM3X] Received response: StunMessage(type=Allocate, cls=ResponseSuccess, transactionId=2oZ+M/4WjuxCUM3X, attributes=[XorRelayedAddress(address=/51.161.174.239:52573), XorMappedAddress(address=/93.45.90.235:37256), Lifetime(seconds=600)])
+[000.498][16:45:21.569][DEBUG] [192.168.1.107:64045 <> 51.161.174.239:3478] Received public address: /93.45.90.235:37256
+[000.498][16:45:21.569][DEBUG] [192.168.1.107:64045 <> 51.161.174.239:3478] Received relayed address: /51.161.174.239:52573
+[000.498][16:45:21.569][TRACE] [192.168.1.107:64045 <> 51.161.174.239:3478] [VA1rFgbUVzP51pUE] Begin STUN request: StunMessage(type=CreatePermission, cls=Request, transactionId=VA1rFgbUVzP51pUE, attributes=[XorPeerAddress(address=/51.161.174.239:0)])
+[000.498][16:45:21.569][TRACE] [192.168.1.107:64045 <> 51.161.174.239:3478] [VA1rFgbUVzP51pUE] Sending STUN request, attempt 1/7
+[000.565][16:45:21.636][TRACE] [26.32.4.227:64048 <> 40.160.66.10:3478] [vTr7ZMDhsgeya5LB] Sending STUN request, attempt 2/7
+[000.575][16:45:21.646][TRACE] [192.168.1.107:64045 <> 40.160.66.10:3478] [XNNikpREeH8kX5Xv] Received response: StunMessage(type=CreatePermission, cls=ResponseSuccess, transactionId=XNNikpREeH8kX5Xv, attributes=[])
+[000.577][16:45:21.649][TRACE] [26.32.4.227:64048 <> 51.195.24.116:3478] [UsyrajgdiuDVlyEX] Sending STUN request, attempt 2/7
+[000.589][16:45:21.660][TRACE] [26.32.4.227:64048 <> 15.235.229.89:3478] [5MFvm74LO8pKuzz1] Sending STUN request, attempt 2/7
+[000.607][16:45:21.679][TRACE] [26.32.4.227:64048 <> 51.161.174.239:3478] [url289+u7yxsJwiY] Sending STUN request, attempt 2/7
+[000.626][16:45:21.698][TRACE] [26.32.4.227:64048 <> 40.160.66.10:3478] [AcmyvIkypWUZKm8t] Sending STUN request, attempt 2/7
+[000.646][16:45:21.717][TRACE] [26.32.4.227:64048 <> 51.195.24.116:3478] [Cv1U/cQdhsZDrCEf] Sending STUN request, attempt 2/7
+[000.653][16:45:21.724][TRACE] [192.168.1.107:64045 <> 15.235.229.89:3478] [eF2rfwQqIMIpOA6R] Ignoring STUN response because we have no active request for that id.
+[000.662][16:45:21.733][TRACE] [26.32.4.227:64048 <> 15.235.229.89:3478] [B1jNx0v7fjaiP0mA] Sending STUN request, attempt 2/7
+[000.682][16:45:21.753][TRACE] [26.32.4.227:64048 <> 51.161.174.239:3478] [1j4pWeC2t2zdKfOK] Sending STUN request, attempt 2/7
+[000.707][16:45:21.778][TRACE] [192.168.1.107:64045 <> 15.235.229.89:3478] [3oFDDyU0D1FLQn74] Received response: StunMessage(type=CreatePermission, cls=ResponseSuccess, transactionId=3oFDDyU0D1FLQn74, attributes=[])
+[000.827][16:45:21.898][TRACE] [192.168.1.107:64045 <> 51.161.174.239:3478] [VA1rFgbUVzP51pUE] Received response: StunMessage(type=CreatePermission, cls=ResponseSuccess, transactionId=VA1rFgbUVzP51pUE, attributes=[])
+[001.024][16:45:22.096][ERROR] [fe80:0:0:0:ee24:8a09:283e:7cf9%net9:64051] Failed to send java.net.DatagramPacket@38450415 to /[fe80:0:0:0:65a:a8bb:49b7:be7c]:57004
+java.net.SocketException: Invalid argument: no further information
+	at java.base/sun.nio.ch.DatagramChannelImpl.send0(Native Method)
+	at java.base/sun.nio.ch.DatagramChannelImpl.sendFromNativeBuffer(Unknown Source)
+	at java.base/sun.nio.ch.DatagramChannelImpl.send(Unknown Source)
+	at java.base/sun.nio.ch.DatagramChannelImpl.send(Unknown Source)
+	at java.base/sun.nio.ch.DatagramChannelImpl.blockingSend(Unknown Source)
+	at java.base/sun.nio.ch.DatagramSocketAdaptor.send(Unknown Source)
+	at java.base/java.net.DatagramSocket.send(Unknown Source)
+	at TRANSFORMER/essential@1.3.10.8/gg.essential.ice.stun.StunSocket$2.invokeSuspend(StunSocket.kt:116)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+[001.125][16:45:22.197][ERROR] [fe80:0:0:0:ee24:8a09:283e:7cf9%net9:64051] Failed to send java.net.DatagramPacket@1c9a7e3e to /[fe80:0:0:0:4d45:a85f:643f:e4df]:57007
+java.net.SocketException: Invalid argument: no further information
+	at java.base/sun.nio.ch.DatagramChannelImpl.send0(Native Method)
+	at java.base/sun.nio.ch.DatagramChannelImpl.sendFromNativeBuffer(Unknown Source)
+	at java.base/sun.nio.ch.DatagramChannelImpl.send(Unknown Source)
+	at java.base/sun.nio.ch.DatagramChannelImpl.send(Unknown Source)
+	at java.base/sun.nio.ch.DatagramChannelImpl.blockingSend(Unknown Source)
+	at java.base/sun.nio.ch.DatagramSocketAdaptor.send(Unknown Source)
+	at java.base/java.net.DatagramSocket.send(Unknown Source)
+	at TRANSFORMER/essential@1.3.10.8/gg.essential.ice.stun.StunSocket$2.invokeSuspend(StunSocket.kt:116)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+[001.229][16:45:22.301][ERROR] [fe80:0:0:0:ee24:8a09:283e:7cf9%net9:64051] Failed to send java.net.DatagramPacket@2a6db783 to /[fe80:0:0:0:3c1e:6f53:a2d2:a514]:57010
+java.net.SocketException: Invalid argument: no further information
+	at java.base/sun.nio.ch.DatagramChannelImpl.send0(Native Method)
+	at java.base/sun.nio.ch.DatagramChannelImpl.sendFromNativeBuffer(Unknown Source)
+	at java.base/sun.nio.ch.DatagramChannelImpl.send(Unknown Source)
+	at java.base/sun.nio.ch.DatagramChannelImpl.send(Unknown Source)
+	at java.base/sun.nio.ch.DatagramChannelImpl.blockingSend(Unknown Source)
+	at java.base/sun.nio.ch.DatagramSocketAdaptor.send(Unknown Source)
+	at java.base/java.net.DatagramSocket.send(Unknown Source)
+	at TRANSFORMER/essential@1.3.10.8/gg.essential.ice.stun.StunSocket$2.invokeSuspend(StunSocket.kt:116)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+[001.272][16:45:22.344][TRACE] [10.5.0.2:64052] Failed to send to /93.45.90.235:37255: Network is unreachable: no further information
+[001.322][16:45:22.394][TRACE] [10.5.0.2:64052] Failed to send to /192.168.1.108:57005: Network is unreachable: no further information
+[001.374][16:45:22.445][TRACE] [10.5.0.2:64052] Failed to send to /26.16.83.156:57008: Network is unreachable: no further information
+[001.424][16:45:22.495][TRACE] [192.168.1.107:64045 <> 51.195.24.116:3478] [5OLF+s/6p6BbaEgB] Begin STUN request: StunMessage(type=CreatePermission, cls=Request, transactionId=5OLF+s/6p6BbaEgB, attributes=[XorPeerAddress(address=/51.195.24.116:0), XorPeerAddress(address=/40.160.66.10:0), XorPeerAddress(address=/15.235.229.89:0), XorPeerAddress(address=/51.161.174.239:0), XorPeerAddress(address=/93.45.90.235:0)])
+[001.424][16:45:22.495][TRACE] [192.168.1.107:64045 <> 51.195.24.116:3478] [5OLF+s/6p6BbaEgB] Sending STUN request, attempt 1/7
+[001.446][16:45:22.517][TRACE] [192.168.1.107:64045 <> 51.195.24.116:3478] [5OLF+s/6p6BbaEgB] Received response: StunMessage(type=CreatePermission, cls=ResponseSuccess, transactionId=5OLF+s/6p6BbaEgB, attributes=[])
+[001.475][16:45:22.547][TRACE] [192.168.1.107:64045 <> 51.195.24.116:3478] [vkWbb5AEc8eeQW/6] Received STUN Data indication from peer /93.45.90.235:37255 with 92 bytes of data.
+[001.533][16:45:22.604][ERROR] [fe80:0:0:0:ee24:8a09:283e:7cf9%net9:64051] Failed to send java.net.DatagramPacket@59ab918d to /[fe80:0:0:0:65a:a8bb:49b7:be7c]:57004
+java.net.SocketException: Invalid argument: no further information
+	at java.base/sun.nio.ch.DatagramChannelImpl.send0(Native Method)
+	at java.base/sun.nio.ch.DatagramChannelImpl.sendFromNativeBuffer(Unknown Source)
+	at java.base/sun.nio.ch.DatagramChannelImpl.send(Unknown Source)
+	at java.base/sun.nio.ch.DatagramChannelImpl.send(Unknown Source)
+	at java.base/sun.nio.ch.DatagramChannelImpl.blockingSend(Unknown Source)
+	at java.base/sun.nio.ch.DatagramSocketAdaptor.send(Unknown Source)
+	at java.base/java.net.DatagramSocket.send(Unknown Source)
+	at TRANSFORMER/essential@1.3.10.8/gg.essential.ice.stun.StunSocket$2.invokeSuspend(StunSocket.kt:116)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+[001.565][16:45:22.637][TRACE] [26.32.4.227:64048 <> 40.160.66.10:3478] [vTr7ZMDhsgeya5LB] Sending STUN request, attempt 3/7
+[001.575][16:45:22.646][TRACE] [192.168.1.107:64045 <> 51.195.24.116:3478] [wlxz0HBoq+RTJ3BC] Begin STUN request: StunMessage(type=CreatePermission, cls=Request, transactionId=wlxz0HBoq+RTJ3BC, attributes=[XorPeerAddress(address=/51.195.24.116:0), XorPeerAddress(address=/40.160.66.10:0), XorPeerAddress(address=/15.235.229.89:0), XorPeerAddress(address=/51.161.174.239:0), XorPeerAddress(address=/93.45.90.235:0), XorPeerAddress(address=/26.16.83.156:0)])
+[001.575][16:45:22.646][TRACE] [192.168.1.107:64045 <> 51.195.24.116:3478] [wlxz0HBoq+RTJ3BC] Sending STUN request, attempt 1/7
+[001.578][16:45:22.649][TRACE] [26.32.4.227:64048 <> 51.195.24.116:3478] [UsyrajgdiuDVlyEX] Sending STUN request, attempt 3/7
+[001.591][16:45:22.662][TRACE] [26.32.4.227:64048 <> 15.235.229.89:3478] [5MFvm74LO8pKuzz1] Sending STUN request, attempt 3/7
+[001.598][16:45:22.669][TRACE] [192.168.1.107:64045 <> 51.195.24.116:3478] [wlxz0HBoq+RTJ3BC] Received response: StunMessage(type=CreatePermission, cls=ResponseSuccess, transactionId=wlxz0HBoq+RTJ3BC, attributes=[])
+[001.608][16:45:22.680][TRACE] [26.32.4.227:64048 <> 51.161.174.239:3478] [url289+u7yxsJwiY] Sending STUN request, attempt 3/7
+[001.624][16:45:22.695][TRACE] [192.168.1.107:64045 <> 51.195.24.116:3478] [Zq8IvcSpQp6lvgQk] Received STUN Data indication from peer /51.195.24.116:60272 with 152 bytes of data.
+[001.627][16:45:22.698][TRACE] [26.32.4.227:64048 <> 40.160.66.10:3478] [AcmyvIkypWUZKm8t] Sending STUN request, attempt 3/7
+[001.636][16:45:22.707][ERROR] [fe80:0:0:0:ee24:8a09:283e:7cf9%net9:64051] Failed to send java.net.DatagramPacket@1100a4d to /[fe80:0:0:0:4d45:a85f:643f:e4df]:57007
+java.net.SocketException: Invalid argument: no further information
+	at java.base/sun.nio.ch.DatagramChannelImpl.send0(Native Method)
+	at java.base/sun.nio.ch.DatagramChannelImpl.sendFromNativeBuffer(Unknown Source)
+	at java.base/sun.nio.ch.DatagramChannelImpl.send(Unknown Source)
+	at java.base/sun.nio.ch.DatagramChannelImpl.send(Unknown Source)
+	at java.base/sun.nio.ch.DatagramChannelImpl.blockingSend(Unknown Source)
+	at java.base/sun.nio.ch.DatagramSocketAdaptor.send(Unknown Source)
+	at java.base/java.net.DatagramSocket.send(Unknown Source)
+	at TRANSFORMER/essential@1.3.10.8/gg.essential.ice.stun.StunSocket$2.invokeSuspend(StunSocket.kt:116)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:34)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:124)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:586)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:820)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:717)
+	at LAYER PLUGIN/kotlin._for.forge.slim/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:704)
+[001.647][16:45:22.719][TRACE] [26.32.4.227:64048 <> 51.195.24.116:3478] [Cv1U/cQdhsZDrCEf] Sending STUN request, attempt 3/7
+[001.664][16:45:22.735][TRACE] [26.32.4.227:64048 <> 15.235.229.89:3478] [B1jNx0v7fjaiP0mA] Sending STUN request, attempt 3/7
+[001.678][16:45:22.749][TRACE] [192.168.1.107:64045 <> 51.195.24.116:3478] [WVzIJURTNEwaegjC] Received STUN Data indication from peer /51.195.24.116:60272 with 92 bytes of data.
+[001.678][16:45:22.749][TRACE] [192.168.1.107:64045 <> 51.195.24.116:3478 <> 51.195.24.116:60272] [qODJnaKa5XtmISYW] Ignoring STUN response because we have no active request for that id.
+[001.682][16:45:22.753][TRACE] [26.32.4.227:64048 <> 51.161.174.239:3478] [1j4pWeC2t2zdKfOK] Sending STUN request, attempt 3/7
+[003.566][16:45:24.638][TRACE] [26.32.4.227:64048 <> 40.160.66.10:3478] [vTr7ZMDhsgeya5LB] Sending STUN request, attempt 4/7
+[003.579][16:45:24.650][TRACE] [26.32.4.227:64048 <> 51.195.24.116:3478] [UsyrajgdiuDVlyEX] Sending STUN request, attempt 4/7
+[003.591][16:45:24.663][TRACE] [26.32.4.227:64048 <> 15.235.229.89:3478] [5MFvm74LO8pKuzz1] Sending STUN request, attempt 4/7
+[003.609][16:45:24.680][TRACE] [26.32.4.227:64048 <> 51.161.174.239:3478] [url289+u7yxsJwiY] Sending STUN request, attempt 4/7
+[003.629][16:45:24.700][TRACE] [26.32.4.227:64048 <> 40.160.66.10:3478] [AcmyvIkypWUZKm8t] Sending STUN request, attempt 4/7
+[003.649][16:45:24.720][TRACE] [26.32.4.227:64048 <> 51.195.24.116:3478] [Cv1U/cQdhsZDrCEf] Sending STUN request, attempt 4/7
+[003.665][16:45:24.736][TRACE] [26.32.4.227:64048 <> 15.235.229.89:3478] [B1jNx0v7fjaiP0mA] Sending STUN request, attempt 4/7
+[003.682][16:45:24.754][TRACE] [26.32.4.227:64048 <> 51.161.174.239:3478] [1j4pWeC2t2zdKfOK] Sending STUN request, attempt 4/7
+[007.567][16:45:28.639][TRACE] [26.32.4.227:64048 <> 40.160.66.10:3478] [vTr7ZMDhsgeya5LB] Sending STUN request, attempt 5/7
+[007.579][16:45:28.650][TRACE] [26.32.4.227:64048 <> 51.195.24.116:3478] [UsyrajgdiuDVlyEX] Sending STUN request, attempt 5/7
+[007.592][16:45:28.663][TRACE] [26.32.4.227:64048 <> 15.235.229.89:3478] [5MFvm74LO8pKuzz1] Sending STUN request, attempt 5/7
+[007.609][16:45:28.681][TRACE] [26.32.4.227:64048 <> 51.161.174.239:3478] [url289+u7yxsJwiY] Sending STUN request, attempt 5/7
+[007.629][16:45:28.701][TRACE] [26.32.4.227:64048 <> 40.160.66.10:3478] [AcmyvIkypWUZKm8t] Sending STUN request, attempt 5/7
+[007.649][16:45:28.721][TRACE] [26.32.4.227:64048 <> 51.195.24.116:3478] [Cv1U/cQdhsZDrCEf] Sending STUN request, attempt 5/7
+[007.665][16:45:28.736][TRACE] [26.32.4.227:64048 <> 15.235.229.89:3478] [B1jNx0v7fjaiP0mA] Sending STUN request, attempt 5/7
+[007.683][16:45:28.754][TRACE] [26.32.4.227:64048 <> 51.161.174.239:3478] [1j4pWeC2t2zdKfOK] Sending STUN request, attempt 5/7
+[010.098][16:45:31.169][TRACE] [192.168.1.107:64045 <> 51.195.24.116:3478] [7ZA2psJhPYUrqMsa] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=7ZA2psJhPYUrqMsa, attributes=[])
+[010.098][16:45:31.169][TRACE] [192.168.1.107:64045 <> 51.195.24.116:3478] [7ZA2psJhPYUrqMsa] Sending STUN request, attempt 1/7
+[010.121][16:45:31.193][TRACE] [192.168.1.107:64045 <> 51.195.24.116:3478] [7ZA2psJhPYUrqMsa] Received response: StunMessage(type=Binding, cls=ResponseSuccess, transactionId=7ZA2psJhPYUrqMsa, attributes=[XorMappedAddress(address=/93.45.90.235:37256), MappedAddress(address=/93.45.90.235:37256)])
+[010.159][16:45:31.230][TRACE] [192.168.1.107:64045 <> 51.195.24.116:3478] [tcdE6fG8PYjnJ3sA] Begin STUN request: StunMessage(type=Refresh, cls=Request, transactionId=tcdE6fG8PYjnJ3sA, attributes=[])
+[010.159][16:45:31.230][TRACE] [192.168.1.107:64045 <> 51.195.24.116:3478] [tcdE6fG8PYjnJ3sA] Sending STUN request, attempt 1/7
+[010.170][16:45:31.242][TRACE] [192.168.1.107:64045 <> 40.160.66.10:3478] [Nrlq/Yv1QS5s78fN] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=Nrlq/Yv1QS5s78fN, attributes=[])
+[010.170][16:45:31.242][TRACE] [192.168.1.107:64045 <> 40.160.66.10:3478] [Nrlq/Yv1QS5s78fN] Sending STUN request, attempt 1/7
+[010.181][16:45:31.253][TRACE] [192.168.1.107:64045 <> 51.195.24.116:3478] [tcdE6fG8PYjnJ3sA] Received response: StunMessage(type=Refresh, cls=ResponseSuccess, transactionId=tcdE6fG8PYjnJ3sA, attributes=[Lifetime(seconds=600)])
+[010.224][16:45:31.295][TRACE] [192.168.1.107:64045 <> 40.160.66.10:3478] [ag9heW/sng2T9vtI] Begin STUN request: StunMessage(type=Refresh, cls=Request, transactionId=ag9heW/sng2T9vtI, attributes=[])
+[010.224][16:45:31.295][TRACE] [192.168.1.107:64045 <> 40.160.66.10:3478] [ag9heW/sng2T9vtI] Sending STUN request, attempt 1/7
+[010.281][16:45:31.352][TRACE] [192.168.1.107:64045 <> 40.160.66.10:3478] [Nrlq/Yv1QS5s78fN] Received response: StunMessage(type=Binding, cls=ResponseSuccess, transactionId=Nrlq/Yv1QS5s78fN, attributes=[XorMappedAddress(address=/93.45.90.235:37256), MappedAddress(address=/93.45.90.235:37256)])
+[010.334][16:45:31.405][TRACE] [192.168.1.107:64045 <> 15.235.229.89:3478] [iGqHk5pywqpo3g99] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=iGqHk5pywqpo3g99, attributes=[])
+[010.334][16:45:31.405][TRACE] [192.168.1.107:64045 <> 15.235.229.89:3478] [iGqHk5pywqpo3g99] Sending STUN request, attempt 1/7
+[010.334][16:45:31.406][TRACE] [192.168.1.107:64045 <> 40.160.66.10:3478] [ag9heW/sng2T9vtI] Received response: StunMessage(type=Refresh, cls=ResponseSuccess, transactionId=ag9heW/sng2T9vtI, attributes=[Lifetime(seconds=600)])
+[010.405][16:45:31.476][TRACE] [192.168.1.107:64045 <> 15.235.229.89:3478] [vd91bOiCInM/+9db] Begin STUN request: StunMessage(type=Refresh, cls=Request, transactionId=vd91bOiCInM/+9db, attributes=[])
+[010.405][16:45:31.476][TRACE] [192.168.1.107:64045 <> 15.235.229.89:3478] [vd91bOiCInM/+9db] Sending STUN request, attempt 1/7
+[010.425][16:45:31.496][TRACE] [192.168.1.107:64045 <> 51.161.174.239:3478] [gKvzFFoSzY+p1wn5] Begin STUN request: StunMessage(type=Binding, cls=Request, transactionId=gKvzFFoSzY+p1wn5, attributes=[])
+[010.425][16:45:31.496][TRACE] [192.168.1.107:64045 <> 51.161.174.239:3478] [gKvzFFoSzY+p1wn5] Sending STUN request, attempt 1/7
+[010.498][16:45:31.569][TRACE] [192.168.1.107:64045 <> 51.161.174.239:3478] [e0pIeUhZqTQyrate] Begin STUN request: StunMessage(type=Refresh, cls=Request, transactionId=e0pIeUhZqTQyrate, attributes=[])
+[010.498][16:45:31.569][TRACE] [192.168.1.107:64045 <> 51.161.174.239:3478] [e0pIeUhZqTQyrate] Sending STUN request, attempt 1/7
+[010.584][16:45:31.655][TRACE] [192.168.1.107:64045 <> 15.235.229.89:3478] [iGqHk5pywqpo3g99] Received response: StunMessage(type=Binding, cls=ResponseSuccess, transactionId=iGqHk5pywqpo3g99, attributes=[XorMappedAddress(address=/93.45.90.235:37256), MappedAddress(address=/93.45.90.235:37256)])
+[010.654][16:45:31.725][TRACE] [192.168.1.107:64045 <> 15.235.229.89:3478] [vd91bOiCInM/+9db] Received response: StunMessage(type=Refresh, cls=ResponseSuccess, transactionId=vd91bOiCInM/+9db, attributes=[Lifetime(seconds=600)])
+[010.770][16:45:31.841][TRACE] [192.168.1.107:64045 <> 51.161.174.239:3478] [gKvzFFoSzY+p1wn5] Received response: StunMessage(type=Binding, cls=ResponseSuccess, transactionId=gKvzFFoSzY+p1wn5, attributes=[XorMappedAddress(address=/93.45.90.235:37256), MappedAddress(address=/93.45.90.235:37256)])
+[010.832][16:45:31.903][TRACE] [192.168.1.107:64045 <> 51.161.174.239:3478] [e0pIeUhZqTQyrate] Received response: StunMessage(type=Refresh, cls=ResponseSuccess, transactionId=e0pIeUhZqTQyrate, attributes=[Lifetime(seconds=600)])
+[015.568][16:45:36.639][TRACE] [26.32.4.227:64048 <> 40.160.66.10:3478] [vTr7ZMDhsgeya5LB] Sending STUN request, attempt 6/7
+[015.580][16:45:36.651][TRACE] [26.32.4.227:64048 <> 51.195.24.116:3478] [UsyrajgdiuDVlyEX] Sending STUN request, attempt 6/7
+[015.594][16:45:36.665][TRACE] [26.32.4.227:64048 <> 15.235.229.89:3478] [5MFvm74LO8pKuzz1] Sending STUN request, attempt 6/7
+[015.611][16:45:36.683][TRACE] [26.32.4.227:64048 <> 51.161.174.239:3478] [url289+u7yxsJwiY] Sending STUN request, attempt 6/7
+[015.631][16:45:36.703][TRACE] [26.32.4.227:64048 <> 40.160.66.10:3478] [AcmyvIkypWUZKm8t] Sending STUN request, attempt 6/7
+[015.650][16:45:36.722][TRACE] [26.32.4.227:64048 <> 51.195.24.116:3478] [Cv1U/cQdhsZDrCEf] Sending STUN request, attempt 6/7
+[015.667][16:45:36.738][TRACE] [26.32.4.227:64048 <> 15.235.229.89:3478] [B1jNx0v7fjaiP0mA] Sending STUN request, attempt 6/7
+[015.683][16:45:36.754][TRACE] [26.32.4.227:64048 <> 51.161.174.239:3478] [1j4pWeC2t2zdKfOK] Sending STUN request, attempt 6/7
