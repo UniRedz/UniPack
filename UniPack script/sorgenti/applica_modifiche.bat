@@ -104,7 +104,8 @@ if exist "saves" (
     for /D %%W in ("saves\*") do (
         if not exist "%%W\datapacks" mkdir "%%W\datapacks"
         xcopy /E /I /Y "datapacks\dread_spawn_boost" "%%W\datapacks\dread_spawn_boost" >nul
-        echo   [OK] Datapack installato in: %%W
+        xcopy /E /I /Y "datapacks\auto_save" "%%W\datapacks\auto_save" >nul
+        echo   [OK] Datapack installati in: %%W
     )
 ) else (
     echo   [--] Nessun mondo trovato - copia manuale dopo aver creato un mondo
