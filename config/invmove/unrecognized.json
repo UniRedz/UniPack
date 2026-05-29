@@ -30,7 +30,12 @@
     "com.mrcrayfish.configured.client.screen.ConfirmationScreen": true,
     "com.tacz.guns.client.gui.GunRefitScreen": true,
     "net.minecraft.client.gui.screens.ConfirmLinkScreen": true,
-    "xaero.map.gui.GuiMap": true
+    "xaero.map.gui.GuiMap": true,
+    "de.maxhenkel.corpse.gui.CorpseAdditionalScreen": true,
+    "net.minecraft.client.gui.screens.ConfirmScreen": true,
+    "net.p3pp3rf1y.sophisticatedbackpacks.client.gui.BackpackScreen": true,
+    "net.p3pp3rf1y.sophisticatedbackpacks.client.gui.BackpackSettingsScreen": true,
+    "xaero.common.gui.GuiMinimapMain": true
   },
   "hideBackground": {
     "dev.ftb.mods.ftblibrary.ui.ScreenWrapper": true,
@@ -38,6 +43,9 @@
     "net.mcreator.signalflares.client.gui.ReloadScreen": true,
     "com.tacz.guns.client.gui.GunSmithTableScreen": true,
     "de.maxhenkel.corpse.gui.DeathHistoryScreen": true,
-    "mezz.jei.gui.recipes.RecipesGui": true
+    "mezz.jei.gui.recipes.RecipesGui": true,
+    "de.maxhenkel.corpse.gui.CorpseAdditionalScreen": true,
+    "net.p3pp3rf1y.sophisticatedbackpacks.client.gui.BackpackScreen": true,
+    "net.p3pp3rf1y.sophisticatedbackpacks.client.gui.BackpackSettingsScreen": true
   }
 }

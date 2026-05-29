@@ -2,8 +2,15 @@
 #63B terralith:cave/thermal_caves
 #3DE minecraft:deep_ocean
 #5E2 terralith:forested_highlands
+#292 minecraft:frozen_ocean
+#3A0 minecraft:frozen_river
 #4F1 minecraft:ocean
 #3DC minecraft:plains
 #5FF minecraft:river
 #4C8 terralith:shield
 #553 terralith:siberian_taiga
+#72D minecraft:snowy_beach
+#4E5 minecraft:snowy_plains
+#340 minecraft:snowy_taiga
+#169 minecraft:taiga
+#152 minecraft:windswept_forest

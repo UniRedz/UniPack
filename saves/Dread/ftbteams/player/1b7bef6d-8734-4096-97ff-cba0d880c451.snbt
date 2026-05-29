@@ -2,9 +2,7 @@
 	id: "1b7bef6d-8734-4096-97ff-cba0d880c451"
 	type: "player"
 	player_name: "zlatymalboro"
-	ranks: {
-		1b7bef6d-8734-4096-97ff-cba0d880c451: "owner"
-	}
+	ranks: { }
 	properties: {
 		"ftbteams:display_name": "zlatymalboro"
 		"ftbteams:description": ""
