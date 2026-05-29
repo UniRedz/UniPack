@@ -1,0 +1,17 @@
+execute as @a at @s run summon minecraft:zombie ~10 ~ ~
+execute as @a at @s run summon minecraft:zombie ~-10 ~ ~
+execute as @a at @s run summon minecraft:zombie ~ ~ ~10
+execute as @a at @s run summon minecraft:zombie ~ ~ ~-10
+execute as @a at @s run summon minecraft:zombie ~7 ~ ~7
+execute as @a at @s run summon minecraft:zombie ~-7 ~ ~-7
+execute as @a at @s run summon minecraft:zombie ~7 ~ ~-7
+execute as @a at @s run summon minecraft:zombie ~-7 ~ ~7
+execute as @a at @s run summon minecraft:skeleton ~10 ~ ~-5
+execute as @a at @s run summon minecraft:skeleton ~-10 ~ ~5
+execute as @a at @s run summon minecraft:skeleton ~5 ~ ~10
+execute as @a at @s run summon minecraft:skeleton ~-5 ~ ~-10
+execute as @a at @s run summon minecraft:creeper ~6 ~ ~
+execute as @a at @s run summon minecraft:creeper ~-6 ~ ~
+execute as @a at @s run summon minecraft:spider ~9 ~ ~
+execute as @a at @s run summon minecraft:spider ~ ~ ~9
+execute as @a at @s run summon minecraft:zombie_villager ~8 ~ ~-8

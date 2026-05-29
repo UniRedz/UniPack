@@ -94,7 +94,10 @@ if not exist "mods\xaeroworldmap-forge-1.19.2-1.40.16.jar" (
 echo.
 echo  [3/4] Copia configurazioni...
 echo.
-echo   [OK] Config applicata
+
+if exist "config\Blood Bits.toml" (
+    echo   [OK] Blood Bits config presente
+) else ( echo   [!!] Blood Bits config non trovata - controlla la cartella config )
 
 echo.
 echo  [4/4] Installazione datapack nei mondi...
@@ -105,6 +108,7 @@ if exist "saves" (
         if not exist "%%W\datapacks" mkdir "%%W\datapacks"
         xcopy /E /I /Y "datapacks\dread_spawn_boost" "%%W\datapacks\dread_spawn_boost" >nul
         xcopy /E /I /Y "datapacks\auto_save" "%%W\datapacks\auto_save" >nul
+        xcopy /E /I /Y "datapacks\horde_mode" "%%W\datapacks\horde_mode" >nul
         echo   [OK] Datapack installati in: %%W
     )
 ) else (
