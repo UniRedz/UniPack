@@ -27,6 +27,13 @@ if exist "mods\nonetherportal-1.2.jar" (
     echo   [OK] nonetherportal disabilitato
 ) else ( echo   [--] nonetherportal non trovato )
 
+for %%F in ("mods\smoothswapping-*.jar") do (
+    if exist "%%F" (
+        move "%%F" "mods\_disabled\" >nul
+        echo   [OK] smoothswapping disabilitato
+    )
+)
+
 echo.
 echo  [2/4] Download mod aggiuntive...
 echo.
@@ -91,13 +98,59 @@ if not exist "mods\xaeroworldmap-forge-1.19.2-1.40.16.jar" (
     ) else ( echo   [!!] ERRORE - Xaero's World Map non scaricato )
 ) else ( echo   [--] Xaero's World Map gia presente )
 
+if not exist "mods\CosmeticArmorReworked-1.19.2-v1a.jar" (
+    echo   Cosmetic Armor Reworked...
+    powershell -Command "Invoke-WebRequest -Uri 'https://edge.forgecdn.net/files/4016/732/CosmeticArmorReworked-1.19.2-v1a.jar' -OutFile 'mods\CosmeticArmorReworked-1.19.2-v1a.jar'"
+    if exist "mods\CosmeticArmorReworked-1.19.2-v1a.jar" (
+        echo   [OK] Cosmetic Armor Reworked
+    ) else ( echo   [!!] ERRORE - Cosmetic Armor Reworked non scaricato )
+) else ( echo   [--] Cosmetic Armor Reworked gia presente )
+
+if not exist "mods\curios-forge-1.19.2-5.1.6.4.jar" (
+    echo   Curios API...
+    powershell -Command "Invoke-WebRequest -Uri 'https://cdn.modrinth.com/data/vvuO3ImH/versions/uUAY30IE/curios-forge-1.19.2-5.1.6.4.jar' -OutFile 'mods\curios-forge-1.19.2-5.1.6.4.jar'"
+    if exist "mods\curios-forge-1.19.2-5.1.6.4.jar" (
+        echo   [OK] Curios API
+    ) else ( echo   [!!] ERRORE - Curios API non scaricato )
+) else ( echo   [--] Curios API gia presente )
+
+if not exist "mods\trashslot-forge-1.19.2-12.1.0.jar" (
+    echo   TrashSlot...
+    powershell -Command "Invoke-WebRequest -Uri 'https://cdn.modrinth.com/data/vRYk0bv7/versions/VLnMeNCk/trashslot-forge-1.19.2-12.1.0.jar' -OutFile 'mods\trashslot-forge-1.19.2-12.1.0.jar'"
+    if exist "mods\trashslot-forge-1.19.2-12.1.0.jar" (
+        echo   [OK] TrashSlot
+    ) else ( echo   [!!] ERRORE - TrashSlot non scaricato )
+) else ( echo   [--] TrashSlot gia presente )
+
+if not exist "mods\corpsecurioscompat-1.18.x-1.20.x-Forge-2.2.2.jar" (
+    echo   Corpse x Curios Compat...
+    powershell -Command "Invoke-WebRequest -Uri 'https://cdn.modrinth.com/data/pJGcKPh1/versions/svYuXRgL/corpsecurioscompat-1.18.x-1.20.x-Forge-2.2.2.jar' -OutFile 'mods\corpsecurioscompat-1.18.x-1.20.x-Forge-2.2.2.jar'"
+    if exist "mods\corpsecurioscompat-1.18.x-1.20.x-Forge-2.2.2.jar" (
+        echo   [OK] Corpse x Curios Compat
+    ) else ( echo   [!!] ERRORE - Corpse x Curios Compat non scaricato )
+) else ( echo   [--] Corpse x Curios Compat gia presente )
+
+if not exist "mods\cosmeticcorpsecompat-1.19.x-1.20.x-Forge-1.0.0.jar" (
+    echo   Corpse x Cosmetic Armor Compat...
+    powershell -Command "Invoke-WebRequest -Uri 'https://cdn.modrinth.com/data/VrbUxhCI/versions/IUCHHmk5/cosmeticcorpsecompat-1.19.x-1.20.x-Forge-1.0.0.jar' -OutFile 'mods\cosmeticcorpsecompat-1.19.x-1.20.x-Forge-1.0.0.jar'"
+    if exist "mods\cosmeticcorpsecompat-1.19.x-1.20.x-Forge-1.0.0.jar" (
+        echo   [OK] Corpse x Cosmetic Armor Compat
+    ) else ( echo   [!!] ERRORE - Corpse x Cosmetic Armor Compat non scaricato )
+) else ( echo   [--] Corpse x Cosmetic Armor Compat gia presente )
+
 echo.
 echo  [3/4] Copia configurazioni...
 echo.
 
 if exist "config\Blood Bits.toml" (
-    echo   [OK] Blood Bits config presente
-) else ( echo   [!!] Blood Bits config non trovata - controlla la cartella config )
+    xcopy /Y "config\Blood Bits.toml" "config\" >nul
+    echo   [OK] Blood Bits config applicata
+) else ( echo   [!!] Blood Bits config non trovata )
+
+if exist "config\badmobs-common.toml" (
+    xcopy /Y "config\badmobs-common.toml" "config\" >nul
+    echo   [OK] BadMobs config applicata
+) else ( echo   [!!] BadMobs config non trovata )
 
 echo.
 echo  [4/4] Installazione datapack nei mondi...
