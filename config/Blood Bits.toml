@@ -1,7 +1,7 @@
 
 [particles]
-	"Blood Amount" = 8.0
-	"Particle Threshold" = 200.0
+	"Blood Amount" = 3.0
+	"Particle Threshold" = 60.0
 	"Sparkle Particles" = false
 	"Sparkle Amount" = 15.0
 	"Blood Particles" = true
@@ -24,7 +24,7 @@
 
 [death_particles]
 	"Death Particles" = true
-	"Death Particle Amount" = 50.0
+	"Death Particle Amount" = 15.0
 
 [entity_list]
 	"Entity Black List" = [""]
