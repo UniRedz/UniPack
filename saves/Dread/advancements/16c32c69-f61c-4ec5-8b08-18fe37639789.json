@@ -275,6 +275,12 @@
     },
     "done": true
   },
+  "horde:joined": {
+    "criteria": {
+      "tick": "2026-05-31 02:51:34 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/emerald_block": {
     "criteria": {
       "has_emerald": "2026-05-26 23:32:35 +0200"
@@ -703,6 +709,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2026-05-30 18:40:24 +0200",
       "minecraft:skeleton": "2026-05-24 15:48:34 +0200",
       "minecraft:spider": "2026-05-24 16:03:14 +0200",
       "minecraft:creeper": "2026-05-24 17:29:23 +0200",
@@ -1837,6 +1844,7 @@
       "rotten_flesh": "2026-05-24 15:40:20 +0200",
       "dried_kelp": "2026-05-25 16:37:07 +0200",
       "golden_carrot": "2026-05-24 16:27:05 +0200",
+      "cod": "2026-05-30 18:40:51 +0200",
       "cooked_salmon": "2026-05-24 01:01:33 +0200",
       "carrot": "2026-05-25 21:42:47 +0200"
     },
