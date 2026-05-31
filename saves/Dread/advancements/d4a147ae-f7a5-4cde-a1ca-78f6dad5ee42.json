@@ -5,6 +5,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/roast_chicken_block": {
+    "criteria": {
+      "has_cooked_chicken": "2026-05-31 18:44:25 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/raw_copper_block": {
     "criteria": {
       "has_raw_copper": "2026-05-24 16:51:14 +0200"
@@ -185,6 +191,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2026-05-31 18:41:00 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_planks": {
     "criteria": {
       "has_logs": "2026-05-25 23:37:11 +0200"
@@ -223,7 +235,9 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "apple": "2026-05-24 00:11:05 +0200"
+      "apple": "2026-05-24 00:11:05 +0200",
+      "bread": "2026-05-31 18:42:18 +0200",
+      "cooked_chicken": "2026-05-31 18:44:44 +0200"
     },
     "done": false
   },
@@ -371,9 +385,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2026-05-31 18:41:00 +0200"
+    },
+    "done": true
+  },
   "spelunkery:recipes/coal": {
     "criteria": {
       "has_item": "2026-05-24 17:33:33 +0200"
+    },
+    "done": true
+  },
+  "spelunkery:recipes/gunpowder": {
+    "criteria": {
+      "has_item": "2026-05-31 18:41:00 +0200"
     },
     "done": true
   },
@@ -586,6 +612,12 @@
   "farmersdelight:main/root": {
     "criteria": {
       "seeds": "2026-05-23 23:11:26 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/chicken_sandwich": {
+    "criteria": {
+      "has_cooked_chicken": "2026-05-31 18:44:25 +0200"
     },
     "done": true
   },

@@ -1,19 +1,19 @@
-[02:50:47.382][INFO]: Successfully injected RecipeFS file system
-[02:50:47.576][INFO]: Successfully identified and loaded plugin farmersdelight:crafttweaker_plugin
-[02:50:47.654][INFO]: Successfully identified and loaded plugin crafttweaker:builtin
-[02:50:47.660][INFO]: Successfully identified and loaded plugin crafttweaker:builtin_forge
-[02:50:48.588][INFO]: The following mods have explicit CraftTweaker support through the default plugin:
-[02:50:48.590][INFO]: - 'crafttweaker' at version '10.1.56'
-[02:50:48.590][INFO]: - 'farmersdelight' at version '1.19.2-1.2.4'
-[02:50:55.269][INFO]: Started loading scripts for loader 'initialize'
-[02:50:56.126][INFO]: Compiling and executing scripts
-[02:50:56.302][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[02:50:56.700][INFO]: Execution for loader 'initialize' completed successfully
-[02:51:24.118][INFO]: Started loading scripts for loader 'tags'
-[02:51:24.141][INFO]: Compiling and executing scripts
-[02:51:24.174][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[02:51:24.184][INFO]: Execution for loader 'tags' completed successfully
-[02:51:24.816][INFO]: Started loading scripts for loader 'crafttweaker'
-[02:51:24.853][INFO]: Compiling and executing scripts
-[02:51:25.229][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[02:51:25.235][INFO]: Execution for loader 'crafttweaker' completed successfully
+[17:44:24.453][INFO]: Successfully injected RecipeFS file system
+[17:44:24.776][INFO]: Successfully identified and loaded plugin farmersdelight:crafttweaker_plugin
+[17:44:24.929][INFO]: Successfully identified and loaded plugin crafttweaker:builtin
+[17:44:24.936][INFO]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[17:44:26.304][INFO]: The following mods have explicit CraftTweaker support through the default plugin:
+[17:44:26.307][INFO]: - 'crafttweaker' at version '10.1.56'
+[17:44:26.307][INFO]: - 'farmersdelight' at version '1.19.2-1.2.4'
+[17:44:37.033][INFO]: Started loading scripts for loader 'initialize'
+[17:44:38.096][INFO]: Compiling and executing scripts
+[17:44:38.239][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[17:44:38.617][INFO]: Execution for loader 'initialize' completed successfully
+[17:45:04.596][INFO]: Started loading scripts for loader 'tags'
+[17:45:04.616][INFO]: Compiling and executing scripts
+[17:45:04.636][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[17:45:04.645][INFO]: Execution for loader 'tags' completed successfully
+[17:45:05.157][INFO]: Started loading scripts for loader 'crafttweaker'
+[17:45:05.172][INFO]: Compiling and executing scripts
+[17:45:05.679][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[17:45:05.686][INFO]: Execution for loader 'crafttweaker' completed successfully

@@ -113,6 +113,12 @@
     },
     "done": true
   },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2026-05-31 18:09:05 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/spruce_fence_gate": {
     "criteria": {
       "has_planks": "2026-05-23 23:13:13 +0200"
@@ -931,6 +937,12 @@
     },
     "done": true
   },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2026-05-31 18:09:05 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/birch_wood": {
     "criteria": {
       "has_log": "2026-05-23 23:18:08 +0200"
@@ -1218,6 +1230,12 @@
   "farmersdelight:recipes/farmersdelight/cooking/pasta_with_meatballs": {
     "criteria": {
       "has_any_ingredient": "2026-05-26 23:55:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2026-05-31 18:12:43 +0200"
     },
     "done": true
   },
@@ -1581,6 +1599,12 @@
     },
     "done": true
   },
+  "spelunkery:recipes/glow_ink_sac": {
+    "criteria": {
+      "has_item": "2026-05-31 18:03:25 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/compass": {
     "criteria": {
       "has_redstone": "2026-05-25 22:10:09 +0200"
@@ -1783,6 +1807,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2026-05-31 18:03:25 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/grindstone": {
     "criteria": {
       "has_stone_slab": "2026-05-26 00:38:14 +0200"
@@ -1885,6 +1915,12 @@
     },
     "done": true
   },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2026-05-31 18:09:06 +0200"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/deepslate_brick_slab_from_deepslate_bricks_stonecutting": {
     "criteria": {
       "has_deepslate_bricks": "2026-05-25 23:26:44 +0200"
@@ -1918,6 +1954,12 @@
   "minecraft:recipes/decorations/soul_campfire": {
     "criteria": {
       "has_stick": "2026-05-23 23:13:20 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/cooking/squid_ink_pasta": {
+    "criteria": {
+      "has_any_ingredient": "2026-05-31 18:03:25 +0200"
     },
     "done": true
   },
