@@ -7,7 +7,7 @@ echo  ================================================
 echo.
 timeout /t 2 /nobreak >nul
 
-echo  [1/4] Rimozione mod incompatibili...
+echo  [1/4] Rimozione mod incompatibili e obsolete...
 echo.
 
 if not exist "mods\_disabled" mkdir "mods\_disabled"
@@ -31,6 +31,27 @@ for %%F in ("mods\smoothswapping-*.jar") do (
     if exist "%%F" (
         move "%%F" "mods\_disabled\" >nul
         echo   [OK] smoothswapping disabilitato
+    )
+)
+
+for %%F in ("mods\bloodybits-*.jar") do (
+    if exist "%%F" (
+        move "%%F" "mods\_disabled\" >nul
+        echo   [OK] bloodybits disabilitato (duplicato)
+    )
+)
+
+for %%F in ("mods\rubidium-mc*.jar") do (
+    if exist "%%F" (
+        move "%%F" "mods\_disabled\" >nul
+        echo   [OK] rubidium disabilitato (sostituito da Embeddium)
+    )
+)
+
+for %%F in ("mods\rubidium_extras-*.jar") do (
+    if exist "%%F" (
+        move "%%F" "mods\_disabled\" >nul
+        echo   [OK] rubidium_extras disabilitato
     )
 )
 
@@ -98,6 +119,30 @@ if not exist "mods\xaeroworldmap-forge-1.19.2-1.40.16.jar" (
     ) else ( echo   [!!] ERRORE - Xaero's World Map non scaricato )
 ) else ( echo   [--] Xaero's World Map gia presente )
 
+if not exist "mods\embeddium-0.3.18.1+mc1.19.2.jar" (
+    echo   Embeddium ^(sostituto Rubidium^)...
+    powershell -Command "Invoke-WebRequest -Uri 'https://cdn.modrinth.com/data/sk9rgfiA/versions/AYqEbec0/embeddium-0.3.18.1+mc1.19.2.jar' -OutFile 'mods\embeddium-0.3.18.1+mc1.19.2.jar'"
+    if exist "mods\embeddium-0.3.18.1+mc1.19.2.jar" (
+        echo   [OK] Embeddium
+    ) else ( echo   [!!] ERRORE - Embeddium non scaricato )
+) else ( echo   [--] Embeddium gia presente )
+
+if not exist "mods\rubidium-extra-0.4.19+mc1.19.2-build.105.jar" (
+    echo   Rubidium Extra...
+    powershell -Command "Invoke-WebRequest -Uri 'https://cdn.modrinth.com/data/oY2B1pjg/versions/MCSKG4Ve/rubidium-extra-0.4.19+mc1.19.2-build.105.jar' -OutFile 'mods\rubidium-extra-0.4.19+mc1.19.2-build.105.jar'"
+    if exist "mods\rubidium-extra-0.4.19+mc1.19.2-build.105.jar" (
+        echo   [OK] Rubidium Extra
+    ) else ( echo   [!!] ERRORE - Rubidium Extra non scaricato )
+) else ( echo   [--] Rubidium Extra gia presente )
+
+if not exist "mods\noisium-1.0.2.jar" (
+    echo   Noisium ^(chunk gen ottimizzato^)...
+    powershell -Command "Invoke-WebRequest -Uri 'https://cdn.modrinth.com/data/JRYQR8rr/versions/f16ggOyj/noisium-1.0.2.jar' -OutFile 'mods\noisium-1.0.2.jar'"
+    if exist "mods\noisium-1.0.2.jar" (
+        echo   [OK] Noisium
+    ) else ( echo   [!!] ERRORE - Noisium non scaricato )
+) else ( echo   [--] Noisium gia presente )
+
 if not exist "mods\CosmeticArmorReworked-1.19.2-v1a.jar" (
     echo   Cosmetic Armor Reworked...
     powershell -Command "Invoke-WebRequest -Uri 'https://edge.forgecdn.net/files/4016/732/CosmeticArmorReworked-1.19.2-v1a.jar' -OutFile 'mods\CosmeticArmorReworked-1.19.2-v1a.jar'"
@@ -151,6 +196,12 @@ if exist "config\badmobs-common.toml" (
     xcopy /Y "config\badmobs-common.toml" "config\" >nul
     echo   [OK] BadMobs config applicata
 ) else ( echo   [!!] BadMobs config non trovata )
+
+if exist "config\sound_physics_remastered\soundphysics.properties" (
+    if not exist "config\sound_physics_remastered" mkdir "config\sound_physics_remastered"
+    xcopy /Y "config\sound_physics_remastered\soundphysics.properties" "config\sound_physics_remastered\" >nul
+    echo   [OK] Sound Physics config applicata
+) else ( echo   [!!] Sound Physics config non trovata )
 
 echo.
 echo  [4/4] Installazione datapack nei mondi...
