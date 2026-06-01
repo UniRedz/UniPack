@@ -2,8 +2,7 @@
   "condition": "minecraft:location_check",
   "predicate": {
     "light": {
-      "light_level": {
-        "type": "minecraft:between",
+      "light": {
         "min": 0,
         "max": 7
       }
