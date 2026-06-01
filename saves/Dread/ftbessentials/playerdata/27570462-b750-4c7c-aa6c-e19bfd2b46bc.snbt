@@ -3,19 +3,19 @@
 	fly: false
 	god: false
 	nick: ""
-	last_seen: { dim: "minecraft:overworld", x: -233, y: 63, z: 24, time: 1780245474703L, xRot: 4.2644405f, yRot: 90.7785f }
+	last_seen: { dim: "minecraft:overworld", x: -233, y: 63, z: 24, time: 1780272260083L, xRot: 8.683811f, yRot: 95.68985f }
 	recording: 0
 	teleport_history: [
-		{ dim: "minecraft:overworld", x: -300, y: 61, z: -333, time: 1779744457196L, xRot: -27.41575f, yRot: -76.499084f }
-		{ dim: "minecraft:overworld", x: -260, y: 66, z: -338, time: 1779744634188L, xRot: 17.36353f, yRot: 147.70874f }
-		{ dim: "minecraft:overworld", x: -466, y: 94, z: 168, time: 1779748516733L, xRot: 9.122614f, yRot: 26.512207f }
-		{ dim: "minecraft:overworld", x: -245, y: 71, z: 6, time: 1779826778859L, xRot: -14.7738905f, yRot: -66.37781f }
-		{ dim: "minecraft:overworld", x: -237, y: 72, z: 3, time: 1779827137263L, xRot: 23.167511f, yRot: 19.018188f }
 		{ dim: "minecraft:overworld", x: -379, y: 64, z: -605, time: 1779832353358L, xRot: 24.35362f, yRot: -133.24432f }
 		{ dim: "minecraft:overworld", x: -237, y: 63, z: 24, time: 1779832435345L, xRot: 16.297321f, yRot: -145.73012f }
 		{ dim: "minecraft:overworld", x: -235, y: 73, z: 15, time: 1779915915329L, xRot: 13.998923f, yRot: 84.73828f }
 		{ dim: "minecraft:overworld", x: -224, y: 77, z: 7, time: 1780243646443L, xRot: 13.723976f, yRot: -125.62062f }
 		{ dim: "minecraft:overworld", x: -227, y: 70, z: 15, time: 1780243677217L, xRot: 21.93292f, yRot: 74.88486f }
+		{ dim: "minecraft:overworld", x: -258, y: 59, z: 37, time: 1780264767854L, xRot: 13.693808f, yRot: 85.92148f }
+		{ dim: "minecraft:overworld", x: -238, y: 71, z: 21, time: 1780265138410L, xRot: 3.808868f, yRot: 75.93045f }
+		{ dim: "minecraft:overworld", x: -225, y: 68, z: 13, time: 1780265823622L, xRot: 35.624886f, yRot: -89.58765f }
+		{ dim: "minecraft:overworld", x: -235, y: 71, z: 17, time: 1780265848106L, xRot: 5.940178f, yRot: -16.346619f }
+		{ dim: "minecraft:overworld", x: -361, y: 151, z: 168, time: 1780272236897L, xRot: 23.151342f, yRot: -19.630371f }
 	]
 	homes: { }
 }
