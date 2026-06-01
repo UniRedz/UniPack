@@ -35,7 +35,10 @@
     "net.minecraft.client.gui.screens.ConfirmScreen": true,
     "net.p3pp3rf1y.sophisticatedbackpacks.client.gui.BackpackScreen": true,
     "net.p3pp3rf1y.sophisticatedbackpacks.client.gui.BackpackSettingsScreen": true,
-    "xaero.common.gui.GuiMinimapMain": true
+    "xaero.common.gui.GuiMinimapMain": true,
+    "top.theillusivec4.curios.client.gui.CuriosScreen": true,
+    "lain.mods.cos.impl.client.gui.GuiCosArmorInventory": true,
+    "xaero.common.gui.GuiWaypoints": true
   },
   "hideBackground": {
     "dev.ftb.mods.ftblibrary.ui.ScreenWrapper": true,
@@ -46,6 +49,8 @@
     "mezz.jei.gui.recipes.RecipesGui": true,
     "de.maxhenkel.corpse.gui.CorpseAdditionalScreen": true,
     "net.p3pp3rf1y.sophisticatedbackpacks.client.gui.BackpackScreen": true,
-    "net.p3pp3rf1y.sophisticatedbackpacks.client.gui.BackpackSettingsScreen": true
+    "net.p3pp3rf1y.sophisticatedbackpacks.client.gui.BackpackSettingsScreen": true,
+    "top.theillusivec4.curios.client.gui.CuriosScreen": true,
+    "lain.mods.cos.impl.client.gui.GuiCosArmorInventory": true
   }
 }

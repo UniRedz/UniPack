@@ -1,4 +1,4 @@
-﻿
+
 #Options for the minecraft mod.
 [minecraft]
 
@@ -1542,7 +1542,7 @@
 	#Spawning options for cave_dweller:cave_dweller
 	[cave_dweller.cave_dweller]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
+		allowNormalSpawning = false
 		#Should spawners be able to spawn the entity?
 		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
@@ -1550,36 +1550,7 @@
 		#Should the entity spawn via mob conversion? i.e. villager -> zombie
 		allowConversions = true
 		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
-		removeAggressively = false
-
-#Options for the bloodybits mod.
-[bloodybits]
-
-	#Spawning options for bloodybits:blood_spray
-	[bloodybits.blood_spray]
-		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
-		#Should spawners be able to spawn the entity?
-		allowSpawners = true
-		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = true
-		#Should the entity spawn via mob conversion? i.e. villager -> zombie
-		allowConversions = true
-		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
-		removeAggressively = false
-
-	#Spawning options for bloodybits:blood_chunk
-	[bloodybits.blood_chunk]
-		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
-		#Should spawners be able to spawn the entity?
-		allowSpawners = true
-		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = true
-		#Should the entity spawn via mob conversion? i.e. villager -> zombie
-		allowConversions = true
-		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
-		removeAggressively = false
+		removeAggressively = true
 
 #Options for the corpse mod.
 [corpse]
@@ -2173,7 +2144,7 @@
 	#Spawning options for man:manfromthefog
 	[man.manfromthefog]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
+		allowNormalSpawning = false
 		#Should spawners be able to spawn the entity?
 		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
@@ -2181,12 +2152,12 @@
 		#Should the entity spawn via mob conversion? i.e. villager -> zombie
 		allowConversions = true
 		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
-		removeAggressively = false
+		removeAggressively = true
 
 	#Spawning options for man:fakemanback
 	[man.fakemanback]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
+		allowNormalSpawning = false
 		#Should spawners be able to spawn the entity?
 		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
@@ -2194,12 +2165,12 @@
 		#Should the entity spawn via mob conversion? i.e. villager -> zombie
 		allowConversions = true
 		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
-		removeAggressively = false
+		removeAggressively = true
 
 	#Spawning options for man:manfromthefogback
 	[man.manfromthefogback]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
+		allowNormalSpawning = false
 		#Should spawners be able to spawn the entity?
 		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
@@ -2207,7 +2178,7 @@
 		#Should the entity spawn via mob conversion? i.e. villager -> zombie
 		allowConversions = true
 		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
-		removeAggressively = false
+		removeAggressively = true
 
 #Options for the whos_there mod.
 [whos_there]
@@ -2286,7 +2257,7 @@
 	#Spawning options for bwrtherain:valem
 	[bwrtherain.valem]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
+		allowNormalSpawning = false
 		#Should spawners be able to spawn the entity?
 		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
@@ -2294,7 +2265,7 @@
 		#Should the entity spawn via mob conversion? i.e. villager -> zombie
 		allowConversions = true
 		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
-		removeAggressively = false
+		removeAggressively = true
 
 #Options for the assimilator mod.
 [assimilator]
@@ -3255,6 +3226,22 @@
 
 	#Spawning options for snowrealmagic:snow
 	[snowrealmagic.snow]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#Should the entity spawn via mob conversion? i.e. villager -> zombie
+		allowConversions = true
+		#When enabled the entity type will be aggresively removed from worlds. This will bypass all other options.
+		removeAggressively = false
+
+#Options for the sophisticatedbackpacks mod.
+[sophisticatedbackpacks]
+
+	#Spawning options for sophisticatedbackpacks:everlasting_backpack_item
+	[sophisticatedbackpacks.everlasting_backpack_item]
 		#Should the entity be allowed to spawn normally?
 		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?

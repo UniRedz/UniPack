@@ -3,9 +3,13 @@
 #63B terralith:cave/thermal_caves
 #705 minecraft:deep_frozen_ocean
 #3DE minecraft:deep_ocean
+#4CA minecraft:dripstone_caves
+#010 minecraft:forest
 #5E2 terralith:forested_highlands
 #292 minecraft:frozen_ocean
 #3A0 minecraft:frozen_river
+#154 minecraft:ice_spikes
+#2D6 minecraft:meadow
 #653 minecraft:nether_wastes
 #4F1 minecraft:ocean
 #3DC minecraft:plains
