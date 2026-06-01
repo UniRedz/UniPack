@@ -1,0 +1,16 @@
+execute positioned ~15 ~ ~ if predicate horde:dark_enough run summon minecraft:zombie ~ ~ ~ {Tags:["horde_mob"],Attributes:[{Name:"generic.follow_range",Base:64.0}]}
+execute positioned ~-15 ~ ~ if predicate horde:dark_enough run summon minecraft:zombie ~ ~ ~ {Tags:["horde_mob"],Attributes:[{Name:"generic.follow_range",Base:64.0}]}
+execute positioned ~ ~ ~15 if predicate horde:dark_enough run summon minecraft:zombie ~ ~ ~ {Tags:["horde_mob"],Attributes:[{Name:"generic.follow_range",Base:64.0}]}
+execute positioned ~ ~ ~-15 if predicate horde:dark_enough run summon minecraft:zombie ~ ~ ~ {Tags:["horde_mob"],Attributes:[{Name:"generic.follow_range",Base:64.0}]}
+execute positioned ~11 ~ ~11 if predicate horde:dark_enough run summon minecraft:zombie ~ ~ ~ {Tags:["horde_mob"],Attributes:[{Name:"generic.follow_range",Base:64.0}]}
+execute positioned ~-11 ~ ~-11 if predicate horde:dark_enough run summon minecraft:zombie ~ ~ ~ {Tags:["horde_mob"],Attributes:[{Name:"generic.follow_range",Base:64.0}]}
+execute positioned ~11 ~ ~-11 if predicate horde:dark_enough run summon minecraft:zombie ~ ~ ~ {Tags:["horde_mob"],Attributes:[{Name:"generic.follow_range",Base:64.0}]}
+execute positioned ~-11 ~ ~11 if predicate horde:dark_enough run summon minecraft:zombie ~ ~ ~ {Tags:["horde_mob"],Attributes:[{Name:"generic.follow_range",Base:64.0}]}
+execute positioned ~13 ~ ~6 if predicate horde:dark_enough run summon minecraft:skeleton ~ ~ ~ {Tags:["horde_mob"],Attributes:[{Name:"generic.follow_range",Base:64.0}]}
+execute positioned ~-13 ~ ~-6 if predicate horde:dark_enough run summon minecraft:skeleton ~ ~ ~ {Tags:["horde_mob"],Attributes:[{Name:"generic.follow_range",Base:64.0}]}
+execute positioned ~6 ~ ~13 if predicate horde:dark_enough run summon minecraft:skeleton ~ ~ ~ {Tags:["horde_mob"],Attributes:[{Name:"generic.follow_range",Base:64.0}]}
+execute positioned ~-6 ~ ~-13 if predicate horde:dark_enough run summon minecraft:skeleton ~ ~ ~ {Tags:["horde_mob"],Attributes:[{Name:"generic.follow_range",Base:64.0}]}
+execute positioned ~14 ~ ~ if predicate horde:dark_enough run summon minecraft:creeper ~ ~ ~ {Tags:["horde_mob"]}
+execute positioned ~-14 ~ ~ if predicate horde:dark_enough run summon minecraft:creeper ~ ~ ~ {Tags:["horde_mob"]}
+execute positioned ~ ~ ~14 if predicate horde:dark_enough run summon minecraft:spider ~ ~ ~ {Tags:["horde_mob"]}
+execute positioned ~14 ~ ~7 if predicate horde:dark_enough run summon minecraft:zombie_villager ~ ~ ~ {Tags:["horde_mob"],Attributes:[{Name:"generic.follow_range",Base:64.0}]}
